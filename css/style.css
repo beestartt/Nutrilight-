@@ -8346,4 +8346,6 @@ header.green {
     padding-bottom: 10px;
     padding-left: 50px;
     padding-right: 50px;
+    margin-left: 250px !important;
+    margin-right: -300px;
 }
