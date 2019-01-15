@@ -1584,11 +1584,11 @@ a.btn:focus {
 }
 
 .right-form-block input.btn {
-    border-radius: 40px;
+    border-radius: 10px;
     border: 2px solid #fff !important;
     padding: 23px 20px;
     font-size: 18px;
-    background-color: transparent;
+    background-color: #f26066;
 }
 
 .right-form-block form fieldset:last-of-type {
