@@ -8335,3 +8335,11 @@ header.green {
     margin-left: 65px;
     margin-right: -100px;
 }
+
+.plans-background {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
