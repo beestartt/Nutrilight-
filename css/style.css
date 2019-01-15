@@ -817,9 +817,11 @@ h4 {
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 16px;
+    font-family: 'Montserrat-Light';
     line-height: 28px;
     color: #fff !important;
+    margin-left: -300px;
 }
 
 h6 {
