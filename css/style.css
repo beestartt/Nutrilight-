@@ -8318,7 +8318,7 @@ header.green {
     padding-bottom: 7px !important;
     padding-right: 15px !important;
     padding-left: 15px !important;
-    border-radius: 40px;
+    border-radius: 10px;
     transition: .5s;
 }
 
