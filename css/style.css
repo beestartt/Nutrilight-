@@ -8294,6 +8294,8 @@ header.green {
     padding: 15px;
     border-radius: 40px;
     transition: .5s;
+    margin-left: 65px;
+    margin-right: -100px;
 }
 
 .how-it-works:hover{
