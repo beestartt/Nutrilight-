@@ -8293,14 +8293,15 @@ header.green {
     color: #fff !important;
     padding: 15px;
     border-radius: 40px;
-    transition: .5s;
+    transition: .8s;
     margin-left: 65px;
     margin-right: -100px;
 }
 
 .how-it-works:hover{
-    background-color: #f26066 !important;
-    border: 2px solid #f26066;
+    background-color: #fff !important;
+    border: 2px solid #fff;
+    color: #f26066 !important;
 }
 
 .schedule{
