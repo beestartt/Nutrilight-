@@ -1586,9 +1586,13 @@ a.btn:focus {
 .right-form-block input.btn {
     border-radius: 10px;
     border: 2px solid #fff !important;
-    padding: 23px 20px;
-    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 16px;
     background-color: #f26066;
+    margin-bottom: 25px;
 }
 
 .right-form-block form fieldset:last-of-type {
