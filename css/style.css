@@ -483,6 +483,7 @@ button:hover {
 figure,
 p {
     margin-bottom: 30px;
+    color: #000 !important;
 }
 
 img {
