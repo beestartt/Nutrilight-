@@ -1603,6 +1603,7 @@ a.btn:focus {
     padding-left: 5px;
     font-size: 16px;
     background-color: #f26066;
+    color: #fff !important;
     margin-bottom: 25px;
 }
 
