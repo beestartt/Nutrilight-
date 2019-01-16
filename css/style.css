@@ -5656,14 +5656,14 @@ ul.sucess-slide li p:before {
 }
 
 .tab-content-block {
-    background: #fafafa;
+    background: #fff;
     border: 1px solid #e2e2e2;
     border-width: 1px 0;
     padding: 53px 0;
 }
 
 .try-block {
-    background: #fafafa;
+    background: #fff;
     margin-bottom: 90px;
     padding: 56px 0;
 }
