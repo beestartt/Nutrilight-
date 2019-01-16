@@ -1122,7 +1122,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
-  margin-top: 55px;
+  margin-top: 75px;
+  margin-bottom: 50px;
 }
 
 @-webkit-keyframes fadeInRightBig {
