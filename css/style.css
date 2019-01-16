@@ -665,7 +665,8 @@ label {
 
 .block {
     padding-top: 50px;
-    padding-bottom: 10px;;
+    padding-bottom: 10px;
+    background-color: #f26066;
 }
 
 .block p,
