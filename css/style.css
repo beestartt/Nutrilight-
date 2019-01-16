@@ -666,7 +666,6 @@ label {
 .block {
     padding-top: 50px;
     padding-bottom: 10px;
-    background-color: #f26066;
 }
 
 .block p,
@@ -676,6 +675,17 @@ label {
 
 .features-block {
     font-family: 'Montserrat-Light', sans-serif;
+}
+
+.block-1 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: #f26066;
+}
+
+.block-1 p,
+.block-1 .top-text {
+    letter-spacing: 0.04em;
 }
 
 .top-text {
