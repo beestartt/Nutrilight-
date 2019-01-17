@@ -682,7 +682,7 @@ label {
 .block-1 {
     padding-top: 50px;
     padding-bottom: 10px;
-    background-color: #f26066;
+    background: url(../images/gradient.png);
 }
 
 .block-1 p,
