@@ -121,7 +121,7 @@ img {
 
 img-1 {
     vertical-align: bottom;
-    width: 30%;
+    width: 20vh !important;
 }
 
 h1 {
