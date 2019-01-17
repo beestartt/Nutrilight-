@@ -8391,3 +8391,7 @@ h10 {
     font-size: 18px;
 }
 
+.imagem-fundo {
+    background: url(../images/receba-dietas-e.png) !important;
+    width: 80vh !important;
+}
