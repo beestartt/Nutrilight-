@@ -8379,6 +8379,14 @@ h8 {
 h9 {
     color: #fff;
     margin-bottom: 20px;
-    font-family: 'Montserrat-Light';
-    font-size: 15px;
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
 }
+
+h10 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+}
+
