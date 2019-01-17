@@ -116,6 +116,12 @@ embed {}
 
 img {
     vertical-align: bottom;
+    width: 40vh !important;
+}
+
+img-1 {
+    vertical-align: bottom;
+    width: 30%;
 }
 
 h1 {
@@ -2071,7 +2077,8 @@ video {
 }
 
 .download-app-block .left-mobile {
-    width: 33%;
+    width: 15% !important;
+    margin-left: 280px !important;
 }
 
 .download-app-block .download-app-text {
