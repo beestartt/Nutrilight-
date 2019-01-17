@@ -116,12 +116,7 @@ embed {}
 
 img {
     vertical-align: bottom;
-    width: 40vh !important;
-}
-
-img-1 {
-    vertical-align: bottom;
-    width: 20vh !important;
+    width: 40vh;
 }
 
 h1 {
@@ -2046,8 +2041,8 @@ video {
 }
 
 .download-app-text h1 {
-    font-size: 45px;
-    line-height: 54px;
+    font-size: 40px;
+    line-height: 45px;
     font-family: 'Montserrat-Light', sans-serif;
 }
 
