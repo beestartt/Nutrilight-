@@ -8427,3 +8427,10 @@ h11 {
     color: #f26066;
     font-family: 'Montserrat-Regular';
 }
+
+h12 {
+    color: #fff;
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    margin-left: -300px;
+}
