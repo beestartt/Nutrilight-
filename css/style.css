@@ -8397,3 +8397,19 @@ h10 {
     background: url(../images/receba-dietas-e.png) !important;
     width: 80vh !important;
 }
+
+.chart-image {
+    width: 60vh;
+}
+
+.download-image {
+    width: 10vh;
+}
+
+.recipes-ideas {
+    background-image: url(../images/receba-dietas-e.png);;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 30vh;
+}
