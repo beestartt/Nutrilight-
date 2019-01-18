@@ -8310,7 +8310,6 @@ header.green {
     color: #fff !important;
     font-family: 'Montserrat-Bold';
     font-size: 30px; 
-    text-align: left;
 }
 
 .how-it-works{
@@ -8421,4 +8420,10 @@ h10 {
     background-position: center;
     width: 100vw;
     height: 30vh;
+}
+
+h11 {
+    font-size: 20px;
+    color: #f26066;
+    font-family: 'Montserrat-Regular';
 }
