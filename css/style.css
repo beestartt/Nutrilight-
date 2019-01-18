@@ -8407,7 +8407,15 @@ h10 {
 }
 
 .recipes-ideas {
-    background-image: url(../images/receba-dietas-e.png);;
+    background-image: url(../images/receba-dietas-e.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 30vh;
+}
+
+.clients-ideas {
+    background-image: url(../images/mudar-faz-bem.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
