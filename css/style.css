@@ -1015,6 +1015,7 @@ header.green .border-btn-small:hover {
 .feature-item-wrap figure {
     height: 76px;
     margin-bottom: 15px;
+    width: 20%;
 }
 
 .feature-item-wrap figure a {
