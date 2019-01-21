@@ -8302,6 +8302,7 @@ header.green {
     font-family: 'Montserrat-Bold';
     font-weight: 800px;
     font-size: 30px;
+    margin-right: -100px;
 }
 
 .programs-text {
@@ -8345,13 +8346,10 @@ header.green {
 }
 
 .subtitle-text {
-    color: #000000 !important;
-    font-family: 'Montserrat-Regular';
+    color: #fff !important;
+    font-family: 'Montserrat-Light';
     font-size: 14px !important;
-    margin-left: 800px;
-    margin-right: -850px;
-    margin-top: -285px;
-}
+  }
 
 .plans-background {
     background-color: #fff;
