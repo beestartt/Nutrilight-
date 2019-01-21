@@ -1,674 +1,979 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- favicon -->
-    <link rel="shortcut icon" type="image/png" href="favicon.png" />
-    <link rel="shortcut icon" type="image/png" href="favicon.png" />
-    <title>Nutrilight - Para você</title>
-
-    <!-- style lists -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/hover.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/jquery.bxslider.css" rel="stylesheet">
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.transitions.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/feature-carousel.css">
-    <link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- montserrat font embed -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <style>
-        /******* loader image before page load ******/
-        .no-js #loader {display: none;}.js #loader { display: block; position: absolute; left: 100px; top: 0;}.se-pre-con {position: fixed;left: 0px;top: 0px;width: 100%;height: 100%;z-index: 9999;background: url(images/Preloader_4.gif) center no-repeat #fff;}
-    </style>
-
-</head>
-
-<body class="program-page">
-
-    <!-- loader image before page load starts -->
-    <div class="se-pre-con"></div>
-    <!-- loader image before page load ends -->
-
-    <!-- main wrapper of the site starts -->
-    <div class="wrapper">
-
-        <!-- ============== Header starts ============== -->
-        <header class="no-padding">
-            <div class="container">
-                <div class="row">
-                    <!-- ============== Main navigation starts ============== -->
-                    <div class="col-md-2"></div>
-                    <div class="col-md-10 text-left">
-                        <nav class="navbar navbar-default">
-                            <div class="container-fluid">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse">
-                                    <ul class="nav navbar-nav text-left pull-left">
-                                        <li class="padding-2 margin-left-5 activeView"><a href="para-voce.html" class="whiteText">Para
-                                                Você</a></li>
-                                        <li class="padding-2 margin-left-5"><a href="para-nutri.html" class="forTexts">Para
-                                                Nutricionistas</a></li>
-                                    </ul>
-                                </div>
-                                <!-- /.navbar-collapse -->
-                            </div>
-                            <!-- /.container-fluid -->
-                        </nav>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- ============== Left logo block starts ============== -->
-                    <div class="col-md-2">
-                        <figure>
-                            <a href="index.html"><img class="img-responsive" src="images/logo-escrito.png" alt="Madang Logo" /></a>
-                        </figure>
-                    </div>
-                    <!-- ============== Left logo block ends ============== -->
-
-                    <!-- ============== Main navigation starts ============== -->
-                    <div class="col-md-5">
-                        <nav class="navbar navbar-default">
-                            <div class="container-fluid">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse">
-                                    <ul class="nav navbar-nav text-left pull-left">
-                                        <li><a href="#how-the-app-works" class="menu-text">Como funciona</a></li>
-                                        <li><a class="menu-text">Blog</a></li>
-                                        <li><a href="#get-ebook" class="menu-text">E-book</a></li>
-                                        <li><a href="#contact-the-team" class="menu-text">Contato</a></li>
-                                    </ul>
-                                </div>
-                                <!-- /.navbar-collapse -->
-                            </div>
-                            <!-- /.container-fluid -->
-                        </nav>
-                    </div>
-
-                    <div class="col-md-5">
-                        <nav class="navbar navbar-default">
-                            <div class="container-fluid">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse">
-                                    <ul class="nav navbar-nav text-right pull-right">
-                                        <li class="active">
-                                            <a>Entrar</a>
-                                        </li>
-                                        <li><a>Registre-se</a></li>
-                                        <li>
-                                            <a href="#appoitment-schedule" class="schedule text-center"><span>Marcar
-                                                    Consulta</span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- /.navbar-collapse -->
-                            </div>
-                            <!-- /.container-fluid -->
-                        </nav>
-                    </div>
-                    <!-- ============== Main navigation ends ============== -->
-                </div>
-            </div>
-        </header>
-        <!-- ============== Header ends ============== -->
-
-        <!-- ============== Banner starts ============== -->
-        <section class="banner home-banner home-banner1">
-            <div class="bannerwrap">
-                <div id="owl-demo">
-                    <div class="item">
-                        <div class="container">
-                            <div class="banner-text text-left">
-                                <h1 class="banner-title">
-                                    Como funciona a Nutrilight?
-                                </h1>
-                                <div class="subtitle-text">
-                                    <br />
-                                    Saiba como nosso aplicativo pode ajudar você a conquistar seus objetivos.
-                                </div>
-                                <br />
-                                <a href="#" class="text-center how-it-works">Saiba Mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ============== Baner ends ============== -->
-
-        <main>
-            <!-- main content starts -->
-            <!-- ============== Features block starts ============== -->
-            <section class="block features-block" id="how-the-app-works">
-                <div class="container">
-                    <div class="top-text text-center wow fadeInUp">A Nutrilight conta com os melhores Nutricionistas do
-                        Brasil
-                        para criar planos relevantes e definitivos para que você atinja seus objetivos!
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 features-item wow fadeInLeft">
-                            <div class="feature-item-wrap text-center">
-                                <figure><a href="#"><img class="img-responsive" src="images/weight-loss.svg" alt="Weigt loss icon" /></a></figure>
-                                <h5><a href="#">Escolha seu objetivo</a></h5>
-                                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-                                    consequat, vel illum dolore eu.</p>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 features-item wow fadeInUp">
-                            <div class="feature-item-wrap text-center">
-                                <figure><a href="#"><img class="img-responsive" src="images/low-colestrol-icon.svg" alt="Low Colesterol Icon" /></a></figure>
-                                <h5><a href="#">Marque sua consulta</a></h5>
-                                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-                                    consequat, vel illum dolore eu.</p>
-                                <a href="#" class="btn hvr-wobble-horizontal">Marcar Consulta</a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 features-item wow fadeInRight">
-                            <div class="feature-item-wrap text-center">
-                                <figure><a href="#"><img class="img-responsive" src="images/fitness-icon.svg" alt="Fitness & Performance Icon" /></a></figure>
-                                <h5><a href="#">Acompanhe seus resultados</a></h5>
-                                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-                                    consequat, vel illum dolore eu.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ============== Features block starts ============== -->
-
-            <!-- ============== select program block starts ============== -->
-            <section class="block select-program-block" id="appoitment-schedule">
-                <div class="container contact-section">
-                    <div class="row">
-                        <div class="col-md-3 wow fadeInRight contact-left">
-                            <div class="w-100 d-flex">
-                                <h3 class="programs-text">Partiu, Nutrilight!</h3>
-                                <h5 class="m-0">
-                                    Pronto para começar? Consulte o Nutricionista <br />
-                                    mais perto de você.
-                                </h5>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow fadeInRight">
-                            <div class="plans-background">
-                                <form>
-                                    <fieldset>
-                                        <input type="text" placeholder="Nome" />
-                                    </fieldset>
-                                    <fieldset>
-                                        <input type="text" placeholder="Email" />
-                                    </fieldset>
-                                    <fieldset>
-                                        <input type="text" placeholder="Telefone" />
-                                    </fieldset>
-                                    <fieldset>
-                                        <input type="text" placeholder="Estado" />
-                                    </fieldset>
-                                    <fieldset>
-                                        <p>Qual o seu objetivo?</p>
-                                        <div class="select text-lt text-sp">
-                                            <select>
-                                                <option value="">Perder Peso</option>
-                                                <option>Ganhar Massa Magra</option>
-                                                <option>Reeducação Alimentar</option>
-                                            </select>
-                                        </div>
-                                    </fieldset>
-
-                                    <fieldset>
-                                        <input type="submit" class="btn hvr-wobble-horizontal text-lt text-sp" value="Enviar" />
-                                    </fieldset>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ============== select program block ends ============== -->Î
-
-            <!-- ============== Support starts ============== -->
-
-            <div class="block support-tab">
-                <div class="container">
-                    <ul class="nav nav-tabs row" role="tablist">
-                        <li class="active col-xs-12 col-sm-3 wow fadeInLeft" data-wow-delay="0.0s">
-                            <a href="#health-doc" class="doc hvr-wobble-top" role="tab" data-toggle="tab">
-                                <i></i>
-                                <span>Sobre as Consultas</span>
-                            </a>
-                        </li>
-                        <!-- ask health ends-->
-
-                        <li class="col-xs-12 col-sm-3  wow fadeInUp" data-wow-delay="0.1s">
-                            <a href="#deliv-dep" class="delivery hvr-wobble-top" role="tab" data-toggle="tab">
-                                <i></i>
-                                <span>Sobre o</span>
-                            </a>
-                        </li>
-                        <!-- delivery department ends-->
-
-                        <li class="col-xs-12 col-sm-3  wow fadeInDown" data-wow-delay="0.2s">
-                            <a href="#business" class="business hvr-wobble-top" role="tab" data-toggle="tab">
-                                <i></i>
-                                <span>Sobre os Nutricionistas</span>
-                            </a>
-                        </li>
-                        <!-- business offers ends-->
-
-                        <li class="col-xs-12 col-sm-3  wow fadeInRight" data-wow-delay="0.3s">
-                            <a href="#tech-sprt" class="tech hvr-wobble-top" role="tab" data-toggle="tab">
-                                <i></i>
-                                <span>Sobre os Pagamentos</span>
-                            </a>
-                        </li>
-                        <!-- technical support ends-->
-                    </ul>
-                </div>
-
-                <div class="tab-content-block">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                                <div class="tab-content">
-                                    <div role="tabpanel" class="tab-pane active" id="health-doc">
-                                        <ul class="acdn accordion">
-                                            <!--singel list-->
-                                            <li class="wow fadeInLeft">
-                                                <div class="link"> Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                                    elit? <i class="fa fa-chevron-down"></i></div>
-
-                                                <div class="detail">
-                                                    <p>
-                                                        You will not be required to re-enter your shipping or billing
-                                                        addresses every time you order online. Whenever you place an
-                                                        order, it will be delivered to the registered address on file,
-                                                        unless you direct us otherwise.
-                                                    </p>
-
-                                                    <p>
-                                                        You can browse, shop and, if necessary, complete your order at
-                                                        a later time. We'll keep track of the items you've already put
-                                                        in your shopping bag so that when you come back later, you will
-                                                        not have to re-select the items again. Note that placing items
-                                                        to your shopping bag for purchase at a later time does not
-                                                        guarantee item availability.
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <!--singel list ends-->
-
-
-                                            <!--singel list-->
-                                            <li class="wow fadeInLeft">
-                                                <div class="link"> Sed diam nonummy nibh euismod tincidunt ut laoreet?
-                                                    <i class="fa fa-chevron-down"></i></div>
-
-                                                <div class="detail">
-                                                    <p>
-                                                        You will not be required to re-enter your shipping or billing
-                                                        addresses every time you order online. Whenever you place an
-                                                        order, it will be delivered to the registered address on file,
-                                                        unless you direct us otherwise.
-                                                    </p>
-
-                                                    <p>
-                                                        You can browse, shop and, if necessary, complete your order at
-                                                        a later time. We'll keep track of the items you've already put
-                                                        in your shopping bag so that when you come back later, you will
-                                                        not have to re-select the items again. Note that placing items
-                                                        to your shopping bag for purchase at a later time does not
-                                                        guarantee item availability.
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <!--singel list ends-->
-
-
-                                            <!--singel list-->
-                                            <li class="wow fadeInLeft">
-                                                <div class="link">Why Should I Become A Registered User? <i class="fa fa-chevron-down"></i></div>
-
-                                                <div class="detail">
-                                                    <p>
-                                                        You will not be required to re-enter your shipping or billing
-                                                        addresses every time you order online. Whenever you place an
-                                                        order, it will be delivered to the registered address on file,
-                                                        unless you direct us otherwise.
-                                                    </p>
-
-                                                    <p>
-                                                        You can browse, shop and, if necessary, complete your order at
-                                                        a later time. We'll keep track of the items you've already put
-                                                        in your shopping bag so that when you come back later, you will
-                                                        not have to re-select the items again. Note that placing items
-                                                        to your shopping bag for purchase at a later time does not
-                                                        guarantee item availability.
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <!--singel list ends-->
-                                        </ul>
-                                    </div>
-                                    <!-- ask health ends-->
-
-                                    <div role="tabpanel" class="tab-pane" id="deliv-dep">
-                                        <ul class="acdn accordion">
-                                            <!--singel list-->
-                                            <li class="wow fadeInLeft">
-                                                <div class="link"> Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                                    elit? <i class="fa fa-chevron-down"></i></div>
-
-                                                <div class="detail">
-                                                    <p>
-                                                        You will not be required to re-enter your shipping or billing
-                                                        addresses every time you order online. Whenever you place an
-                                                        order, it will be delivered to the registered address on file,
-                                                        unless you direct us otherwise.
-                                                    </p>
-
-                                                    <p>
-                                                        You can browse, shop and, if necessary, complete your order at
-                                                        a later time. We'll keep track of the items you've already put
-                                                        in your shopping bag so that when you come back later, you will
-                                                        not have to re-select the items again. Note that placing items
-                                                        to your shopping bag for purchase at a later time does not
-                                                        guarantee item availability.
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <!--singel list ends-->
-
-
-                                            <!--singel list-->
-                                            <li class="wow fadeInLeft">
-                                                <div class="link"> Sed diam nonummy nibh euismod tincidunt ut laoreet?
-                                                    <i class="fa fa-chevron-down"></i></div>
-
-                                                <div class="detail">
-                                                    <p>
-                                                        You will not be required to re-enter your shipping or billing
-                                                        addresses every time you order online. Whenever you place an
-                                                        order, it will be delivered to the registered address on file,
-                                                        unless you direct us otherwise.
-                                                    </p>
-
-                                                    <p>
-                                                        You can browse, shop and, if necessary, complete your order at
-                                                        a later time. We'll keep track of the items you've already put
-                                                        in your shopping bag so that when you come back later, you will
-                                                        not have to re-select the items again. Note that placing items
-                                                        to your shopping bag for purchase at a later time does not
-                                                        guarantee item availability.
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <!--singel list ends-->
-                                        </ul>
-                                    </div>
-                                    <!-- delivery department ends-->
-
-                                    <div role="tabpanel" class="tab-pane" id="business">
-                                        <ul class="acdn accordion">
-                                            <!--singel list-->
-                                            <li class="wow fadeInLeft">
-                                                <div class="link"> Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                                    elit? <i class="fa fa-chevron-down"></i></div>
-
-                                                <div class="detail">
-                                                    <p>
-                                                        You will not be required to re-enter your shipping or billing
-                                                        addresses every time you order online. Whenever you place an
-                                                        order, it will be delivered to the registered address on file,
-                                                        unless you direct us otherwise.
-                                                    </p>
-
-                                                    <p>
-                                                        You can browse, shop and, if necessary, complete your order at
-                                                        a later time. We'll keep track of the items you've already put
-                                                        in your shopping bag so that when you come back later, you will
-                                                        not have to re-select the items again. Note that placing items
-                                                        to your shopping bag for purchase at a later time does not
-                                                        guarantee item availability.
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <!--singel list ends-->
-
-
-                                            <!--singel list-->
-                                            <li class="wow fadeInLeft">
-                                                <div class="link"> Sed diam nonummy nibh euismod tincidunt ut laoreet?
-                                                    <i class="fa fa-chevron-down"></i></div>
-
-                                                <div class="detail">
-                                                    <p>
-                                                        You will not be required to re-enter your shipping or billing
-                                                        addresses every time you order online. Whenever you place an
-                                                        order, it will be delivered to the registered address on file,
-                                                        unless you direct us otherwise.
-                                                    </p>
-
-                                                    <p>
-                                                        You can browse, shop and, if necessary, complete your order at
-                                                        a later time. We'll keep track of the items you've already put
-                                                        in your shopping bag so that when you come back later, you will
-                                                        not have to re-select the items again. Note that placing items
-                                                        to your shopping bag for purchase at a later time does not
-                                                        guarantee item availability.
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <!--singel list ends-->
-
-
-                                            <!--singel list-->
-                                            <li class="wow fadeInLeft">
-                                                <div class="link">Why Should I Become A Registered User? <i class="fa fa-chevron-down"></i></div>
-
-                                                <div class="detail">
-                                                    <p>
-                                                        You will not be required to re-enter your shipping or billing
-                                                        addresses every time you order online. Whenever you place an
-                                                        order, it will be delivered to the registered address on file,
-                                                        unless you direct us otherwise.
-                                                    </p>
-
-                                                    <p>
-                                                        You can browse, shop and, if necessary, complete your order at
-                                                        a later time. We'll keep track of the items you've already put
-                                                        in your shopping bag so that when you come back later, you will
-                                                        not have to re-select the items again. Note that placing items
-                                                        to your shopping bag for purchase at a later time does not
-                                                        guarantee item availability.
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <!--singel list ends-->
-                                        </ul>
-                                    </div>
-                                    <!-- business offers ends-->
-
-                                    <div role="tabpanel" class="tab-pane" id="tech-sprt">
-                                        <ul class="acdn accordion">
-                                            <!--singel list-->
-                                            <li class="wow fadeInLeft">
-                                                <div class="link"> Lorem ipsum dolor sit amet, consectetuer adipiscing
-                                                    elit? <i class="fa fa-chevron-down"></i></div>
-
-                                                <div class="detail">
-                                                    <p>
-                                                        You will not be required to re-enter your shipping or billing
-                                                        addresses every time you order online. Whenever you place an
-                                                        order, it will be delivered to the registered address on file,
-                                                        unless you direct us otherwise.
-                                                    </p>
-
-                                                    <p>
-                                                        You can browse, shop and, if necessary, complete your order at
-                                                        a later time. We'll keep track of the items you've already put
-                                                        in your shopping bag so that when you come back later, you will
-                                                        not have to re-select the items again. Note that placing items
-                                                        to your shopping bag for purchase at a later time does not
-                                                        guarantee item availability.
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <!--singel list ends-->
-                                        </ul>
-                                    </div>
-                                    <!-- technical support ends-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--tab block ends-->
-
-            <!--try-block-->
-            <div class="container">
-                <div class="try-block text-center">
-                    <h3>Não encontrou o que procurava? Entre em contato com a gente!</h3>
-                    <a href="#" class="btn hvr-wobble-skew">Contato</a>
-                </div>
-            </div>
-            <!--try block ends-->
-            <!-- ============== Support ends ============== -->
-            <!-- main content ends -->
-
-        </main> <!-- main content ends -->
-
-
-        <!-- ============== footer block starts ============== -->
-        <section id="contact-the-team">
-            <footer>
-                <div class="top-footer">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-4 footer-logo">
-                                <figure><a href="#"><img class="img-responsive" src="images/logo.png" alt="Footer logo" /></a></figure>
-                            </div>
-                            <div class="col-xs-12 col-sm-2 footer-social-links pull-right hidden-md hidden-lg hidden-xs">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook hvr-wobble-top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter hvr-wobble-top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus hvr-wobble-top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram hvr-wobble-top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-tumblr hvr-wobble-top"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 footer-menu">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-3 footer-links-col">
-                                        <span>about</span>
-                                        <ul>
-                                            <li><a href="para-nutri.html">Nutricionistas</a></li>
-                                            <li><a href="para-voce.html">Clientes</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-3 footer-links-col">
-                                        <span>press</span>
-                                        <ul>
-                                            <li><a href="#">Sobre o App</a></li>
-                                            <li><a href="#">Download</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-3 footer-links-col">
-                                        <span>company</span>
-                                        <ul>
-                                            <li><a href="#">E-book</a></li>
-                                            <li><a href="#">Contato</a></li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-2 footer-social-links pull-right hidden-sm">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook hvr-wobble-top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter hvr-wobble-top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus hvr-wobble-top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram hvr-wobble-top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-tumblr hvr-wobble-top"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bottom-footer">
-                    <div class="container">
-                        <div class="copyright-text text-center">&copy; 2014-2016 Madang, Inc. ALL RIGHT RESERVED.</div>
-                    </div>
-                </div>
-            </footer>
-        </section>
-        <!-- ============== footer block starts ============== -->
-
-
-    </div>
-    <!-- main wrapper of the site ends -->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/jquery-ui-1.9.2.custom.js"></script>
-    <script src="js/modernizr.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/Headroom.js"></script>
-    <script src="js/jquery.parallax-1.1.3.js"></script>
-    <script src="js/jquery.featureCarousel.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/jquery.waypoints.js"></script>
-    <script src="js/jquery.counterup.js"></script>
-    <script src="js/main.js"></script>
-</body>
-
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- favicon -->
+		<link rel="shortcut icon" type="image/png" href="favicon.png" />
+		<link rel="shortcut icon" type="image/png" href="favicon.png" />
+		<title>Nutrilight - Para você</title>
+
+		<!-- style lists -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/animate.css" rel="stylesheet" />
+		<link href="css/hover.css" rel="stylesheet" />
+		<link href="css/font-awesome.css" rel="stylesheet" />
+		<link href="css/jquery.bxslider.css" rel="stylesheet" />
+		<link href="css/owl.carousel.css" rel="stylesheet" />
+		<link href="css/owl.transitions.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/feature-carousel.css" />
+		<link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+
+		<!-- montserrat font embed -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700"
+			rel="stylesheet"
+			type="text/css"
+		/>
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<style>
+			/******* loader image before page load ******/
+			.no-js #loader {
+				display: none;
+			}
+			.js #loader {
+				display: block;
+				position: absolute;
+				left: 100px;
+				top: 0;
+			}
+			.se-pre-con {
+				position: fixed;
+				left: 0px;
+				top: 0px;
+				width: 100%;
+				height: 100%;
+				z-index: 9999;
+				background: url(images/Preloader_4.gif) center no-repeat #fff;
+			}
+		</style>
+	</head>
+
+	<body class="program-page">
+		<!-- loader image before page load starts -->
+		<div class="se-pre-con"></div>
+		<!-- loader image before page load ends -->
+
+		<!-- main wrapper of the site starts -->
+		<div class="wrapper">
+			<!-- ============== Header starts ============== -->
+			<header class="no-padding">
+				<div class="container">
+					<div class="row">
+						<!-- ============== Main navigation starts ============== -->
+						<div class="col-md-2"></div>
+						<div class="col-md-10 text-left">
+							<nav class="navbar navbar-default">
+								<div class="container-fluid">
+									<!-- Brand and toggle get grouped for better mobile display -->
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+
+									<!-- Collect the nav links, forms, and other content for toggling -->
+									<div class="collapse">
+										<ul class="nav navbar-nav text-left pull-left">
+											<li class="padding-2 margin-left-5 activeView">
+												<a href="para-voce.html" class="whiteText"
+													>Para Você</a
+												>
+											</li>
+											<li class="padding-2 margin-left-5">
+												<a href="para-nutri.html" class="forTexts"
+													>Para Nutricionistas</a
+												>
+											</li>
+										</ul>
+									</div>
+									<!-- /.navbar-collapse -->
+								</div>
+								<!-- /.container-fluid -->
+							</nav>
+						</div>
+					</div>
+					<div class="row">
+						<!-- ============== Left logo block starts ============== -->
+						<div class="col-md-2">
+							<figure>
+								<a href="index.html"
+									><img
+										class="img-responsive"
+										src="images/logo-escrito.png"
+										alt="Madang Logo"
+								/></a>
+							</figure>
+						</div>
+						<!-- ============== Left logo block ends ============== -->
+
+						<!-- ============== Main navigation starts ============== -->
+						<div class="col-md-5">
+							<nav class="navbar navbar-default">
+								<div class="container-fluid">
+									<!-- Brand and toggle get grouped for better mobile display -->
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+
+									<!-- Collect the nav links, forms, and other content for toggling -->
+									<div class="collapse">
+										<ul class="nav navbar-nav text-left pull-left">
+											<li>
+												<a href="#how-the-app-works" class="menu-text"
+													>Como funciona</a
+												>
+											</li>
+											<li><a class="menu-text">Blog</a></li>
+											<li>
+												<a href="#get-ebook" class="menu-text">E-book</a>
+											</li>
+											<li>
+												<a href="#contact-the-team" class="menu-text"
+													>Contato</a
+												>
+											</li>
+										</ul>
+									</div>
+									<!-- /.navbar-collapse -->
+								</div>
+								<!-- /.container-fluid -->
+							</nav>
+						</div>
+
+						<div class="col-md-5">
+							<nav class="navbar navbar-default">
+								<div class="container-fluid">
+									<!-- Brand and toggle get grouped for better mobile display -->
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+
+									<!-- Collect the nav links, forms, and other content for toggling -->
+									<div class="collapse">
+										<ul class="nav navbar-nav text-right pull-right">
+											<li class="active"><a>Entrar</a></li>
+											<li><a>Registre-se</a></li>
+											<li>
+												<a
+													href="#appoitment-schedule"
+													class="schedule text-center"
+													><span>Marcar Consulta</span></a
+												>
+											</li>
+										</ul>
+									</div>
+									<!-- /.navbar-collapse -->
+								</div>
+								<!-- /.container-fluid -->
+							</nav>
+						</div>
+						<!-- ============== Main navigation ends ============== -->
+					</div>
+				</div>
+			</header>
+			<!-- ============== Header ends ============== -->
+
+			<!-- ============== Banner starts ============== -->
+			<section class="banner home-banner home-banner1">
+				<div class="bannerwrap">
+					<div id="owl-demo">
+						<div class="item">
+							<div class="container">
+								<div class="banner-text text-left">
+									<h1 class="banner-title">Como funciona a Nutrilight?</h1>
+									<div class="subtitle-text">
+										<br />
+										Conectamos pacientes e nutricionistas de um jeito bem
+										saudável! Com a Nutrilight, os pacientes ficam sempre
+										motivados e as consultas mais leves e gostosas. Isso faz
+										toda a diferença e não pesa no bolso.
+									</div>
+									<br />
+									<a href="#how-the-app-works" class="text-left how-it-works"
+										>Saiba Mais</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ============== Baner ends ============== -->
+
+			<main>
+				<!-- main content starts -->
+				<!-- ============== Features block starts ============== -->
+				<section class="block features-block" id="how-the-app-works">
+					<div class="container">
+						<div class="top-text text-center wow fadeInUp">
+							A Nutrilight conta com os melhores Nutricionistas do Brasil para criar
+							planos relevantes e definitivos para que você atinja seus objetivos!
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-4 features-item wow fadeInLeft">
+								<div class="feature-item-wrap text-center">
+									<figure>
+										<a href="#"
+											><img
+												class="img-responsive"
+												src="images/verificado.png"
+												alt="Weigt loss icon"
+										/></a>
+									</figure>
+									<h5><a href="#">Escolha seu objetivo</a></h5>
+									<p>
+										Selecione o objetivo que você pretende cumprir com a ajuda
+										dos Nutricionistas profissionais da Nutrilight!
+									</p>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 features-item wow fadeInUp">
+								<div class="feature-item-wrap text-center">
+									<figure>
+										<a href="#"
+											><img
+												class="img-responsive"
+												src="images/calendario.png"
+												alt="Low Colesterol Icon"
+										/></a>
+									</figure>
+									<h5><a href="#">Marque sua consulta</a></h5>
+									<p>
+										Encontre o Nutricionista mais próximo de você e marque sua
+										consulta para dar início ao seu objetivo!
+									</p>
+									<a href="#appoitment-schedule" class="btn hvr-wobble-horizontal"
+										>Marcar Consulta</a
+									>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 features-item wow fadeInRight">
+								<div class="feature-item-wrap text-center">
+									<figure>
+										<a href="#"
+											><img
+												class="img-responsive"
+												src="images/grafico.png"
+												alt="Fitness & Performance Icon"
+										/></a>
+									</figure>
+									<h5><a href="#">Acompanhe seus resultados</a></h5>
+									<p>
+										Acompanhe as mudanças e resultados e tenha contato direto
+										com seu Nutricionista através do app Nutrilight!
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- ============== Features block starts ============== -->
+
+				<!-- ============== download app block starts ============== -->
+				<section class="download-app-block" id="download-the-app">
+					<div class="container">
+						<!-- right text starts -->
+						<div class="wow fadeInLeft download-app-text">
+							<div class="download-app-wrap">
+								<h1 class="text-lt text-sp">
+									Pra te deixar bem motivado, tem o app.
+								</h1>
+								<br />
+								<p>
+									Ele ajuda a planejar sua conduta nutricional, mostra o seu plano
+									alimentar e resultados alcançados. Se quiser, você pode tirar
+									dúvidas com o seu Nutricionista. E até receber um lembrete
+									naquele aniversário bem na hora do parabéns! <br />
+									<br />
+									Baixe o App e marque sua consulta. #sejanutri
+								</p>
+								<br />
+								<div class="download-from">
+									<a
+										><img
+											class="download-image"
+											src="images/em-breve-na-apple-store.png"
+											alt="App store"
+									/></a>
+									<a
+										><img
+											class="download-image"
+											src="images/em-breve-google-play.png"
+											alt="Google Play"
+									/></a>
+								</div>
+							</div>
+						</div>
+						<!-- right text ends -->
+						<!-- left image starts -->
+						<div class="wow fadeInRight left-mobile">
+							<figure>
+								<img
+									src="images/peso-e-grafico.png"
+									class="chart-image"
+									alt="Mobile phone"
+								/>
+							</figure>
+						</div>
+						<!-- left image ends -->
+					</div>
+				</section>
+				<!-- ============== download app block ends ============== -->
+
+				<!-- ============== Contact form block starts ============== -->
+				<section class="block-1 contact-form" id="get-ebook">
+					<div class="container">
+						<h8 class="wow fadeInUp">CONQUISTE SEUS OBJETIVOS COM A NUTRILIGHT!</h8>
+						<div class="row">
+							<div class="col-xs-12 col-sm-7 contact-left-text wow fadeInLeft">
+								<h10>
+									<br /><br />
+									Tenha acesso completo ao novo e-book de receitas da Nutrilight!
+									<br />
+									<br />
+								</h10>
+								<h9>
+									Criado por nutricionistas profissionais, nosso e-book é GRATUITO
+									<br />
+									e visa ajudar você a conquistar seus objetivos! <br />
+									Para receber o e-book, preencha os campos ao lado e comece já
+									<br />
+									a colocar suas receitas em prática!
+								</h9>
+							</div>
+							<div
+								class="col-xs-12 col-sm-5 contact-right-form wow fadeInRight contact-section"
+							>
+								<form>
+									<fieldset><input type="text" placeholder="Nome" /></fieldset>
+									<fieldset><input type="text" placeholder="Email" /></fieldset>
+									<fieldset>
+										<input type="text" placeholder="Telefone" />
+									</fieldset>
+									<fieldset><button class="btn">RECEBER E-BOOK</button></fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- ============== Contact form block ends ============== -->
+
+				<!-- ============== Support starts ============== -->
+
+				<div class="block support-tab">
+					<div class="container">
+						<ul class="nav nav-tabs row" role="tablist">
+							<li
+								class="active col-xs-12 col-sm-3 wow fadeInLeft"
+								data-wow-delay="0.0s"
+							>
+								<a
+									href="#health-doc"
+									class="doc hvr-wobble-top"
+									role="tab"
+									data-toggle="tab"
+								>
+									<i></i> <span>Sobre as Consultas</span>
+								</a>
+							</li>
+							<!-- ask health ends-->
+
+							<li class="col-xs-12 col-sm-3  wow fadeInUp" data-wow-delay="0.1s">
+								<a
+									href="#deliv-dep"
+									class="delivery hvr-wobble-top"
+									role="tab"
+									data-toggle="tab"
+								>
+									<i></i> <span>Sobre o Aplicativo</span>
+								</a>
+							</li>
+							<!-- delivery department ends-->
+
+							<li class="col-xs-12 col-sm-3  wow fadeInDown" data-wow-delay="0.2s">
+								<a
+									href="#business"
+									class="business hvr-wobble-top"
+									role="tab"
+									data-toggle="tab"
+								>
+									<i></i> <span>Sobre os Nutricionistas</span>
+								</a>
+							</li>
+							<!-- business offers ends-->
+
+							<li class="col-xs-12 col-sm-3  wow fadeInRight" data-wow-delay="0.3s">
+								<a
+									href="#tech-sprt"
+									class="tech hvr-wobble-top"
+									role="tab"
+									data-toggle="tab"
+								>
+									<i></i> <span>Sobre os Pagamentos</span>
+								</a>
+							</li>
+							<!-- technical support ends-->
+						</ul>
+					</div>
+
+					<div class="tab-content-block">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+									<div class="tab-content">
+										<div
+											role="tabpanel"
+											class="tab-pane active"
+											id="health-doc"
+										>
+											<ul class="acdn accordion">
+												<!--singel list-->
+												<li class="wow fadeInLeft">
+													<div class="link">
+														Lorem ipsum dolor sit amet, consectetuer
+														adipiscing elit?
+														<i class="fa fa-chevron-down"></i>
+													</div>
+
+													<div class="detail">
+														<p>
+															You will not be required to re-enter
+															your shipping or billing addresses every
+															time you order online. Whenever you
+															place an order, it will be delivered to
+															the registered address on file, unless
+															you direct us otherwise.
+														</p>
+
+														<p>
+															You can browse, shop and, if necessary,
+															complete your order at a later time.
+															We'll keep track of the items you've
+															already put in your shopping bag so that
+															when you come back later, you will not
+															have to re-select the items again. Note
+															that placing items to your shopping bag
+															for purchase at a later time does not
+															guarantee item availability.
+														</p>
+													</div>
+												</li>
+												<!--singel list ends-->
+
+												<!--singel list-->
+												<li class="wow fadeInLeft">
+													<div class="link">
+														Sed diam nonummy nibh euismod tincidunt ut
+														laoreet? <i class="fa fa-chevron-down"></i>
+													</div>
+
+													<div class="detail">
+														<p>
+															You will not be required to re-enter
+															your shipping or billing addresses every
+															time you order online. Whenever you
+															place an order, it will be delivered to
+															the registered address on file, unless
+															you direct us otherwise.
+														</p>
+
+														<p>
+															You can browse, shop and, if necessary,
+															complete your order at a later time.
+															We'll keep track of the items you've
+															already put in your shopping bag so that
+															when you come back later, you will not
+															have to re-select the items again. Note
+															that placing items to your shopping bag
+															for purchase at a later time does not
+															guarantee item availability.
+														</p>
+													</div>
+												</li>
+												<!--singel list ends-->
+
+												<!--singel list-->
+												<li class="wow fadeInLeft">
+													<div class="link">
+														Why Should I Become A Registered User?
+														<i class="fa fa-chevron-down"></i>
+													</div>
+
+													<div class="detail">
+														<p>
+															You will not be required to re-enter
+															your shipping or billing addresses every
+															time you order online. Whenever you
+															place an order, it will be delivered to
+															the registered address on file, unless
+															you direct us otherwise.
+														</p>
+
+														<p>
+															You can browse, shop and, if necessary,
+															complete your order at a later time.
+															We'll keep track of the items you've
+															already put in your shopping bag so that
+															when you come back later, you will not
+															have to re-select the items again. Note
+															that placing items to your shopping bag
+															for purchase at a later time does not
+															guarantee item availability.
+														</p>
+													</div>
+												</li>
+												<!--singel list ends-->
+											</ul>
+										</div>
+										<!-- ask health ends-->
+
+										<div role="tabpanel" class="tab-pane" id="deliv-dep">
+											<ul class="acdn accordion">
+												<!--singel list-->
+												<li class="wow fadeInLeft">
+													<div class="link">
+														Lorem ipsum dolor sit amet, consectetuer
+														adipiscing elit?
+														<i class="fa fa-chevron-down"></i>
+													</div>
+
+													<div class="detail">
+														<p>
+															You will not be required to re-enter
+															your shipping or billing addresses every
+															time you order online. Whenever you
+															place an order, it will be delivered to
+															the registered address on file, unless
+															you direct us otherwise.
+														</p>
+
+														<p>
+															You can browse, shop and, if necessary,
+															complete your order at a later time.
+															We'll keep track of the items you've
+															already put in your shopping bag so that
+															when you come back later, you will not
+															have to re-select the items again. Note
+															that placing items to your shopping bag
+															for purchase at a later time does not
+															guarantee item availability.
+														</p>
+													</div>
+												</li>
+												<!--singel list ends-->
+
+												<!--singel list-->
+												<li class="wow fadeInLeft">
+													<div class="link">
+														Sed diam nonummy nibh euismod tincidunt ut
+														laoreet? <i class="fa fa-chevron-down"></i>
+													</div>
+
+													<div class="detail">
+														<p>
+															You will not be required to re-enter
+															your shipping or billing addresses every
+															time you order online. Whenever you
+															place an order, it will be delivered to
+															the registered address on file, unless
+															you direct us otherwise.
+														</p>
+
+														<p>
+															You can browse, shop and, if necessary,
+															complete your order at a later time.
+															We'll keep track of the items you've
+															already put in your shopping bag so that
+															when you come back later, you will not
+															have to re-select the items again. Note
+															that placing items to your shopping bag
+															for purchase at a later time does not
+															guarantee item availability.
+														</p>
+													</div>
+												</li>
+												<!--singel list ends-->
+											</ul>
+										</div>
+										<!-- delivery department ends-->
+
+										<div role="tabpanel" class="tab-pane" id="business">
+											<ul class="acdn accordion">
+												<!--singel list-->
+												<li class="wow fadeInLeft">
+													<div class="link">
+														Lorem ipsum dolor sit amet, consectetuer
+														adipiscing elit?
+														<i class="fa fa-chevron-down"></i>
+													</div>
+
+													<div class="detail">
+														<p>
+															You will not be required to re-enter
+															your shipping or billing addresses every
+															time you order online. Whenever you
+															place an order, it will be delivered to
+															the registered address on file, unless
+															you direct us otherwise.
+														</p>
+
+														<p>
+															You can browse, shop and, if necessary,
+															complete your order at a later time.
+															We'll keep track of the items you've
+															already put in your shopping bag so that
+															when you come back later, you will not
+															have to re-select the items again. Note
+															that placing items to your shopping bag
+															for purchase at a later time does not
+															guarantee item availability.
+														</p>
+													</div>
+												</li>
+												<!--singel list ends-->
+
+												<!--singel list-->
+												<li class="wow fadeInLeft">
+													<div class="link">
+														Sed diam nonummy nibh euismod tincidunt ut
+														laoreet? <i class="fa fa-chevron-down"></i>
+													</div>
+
+													<div class="detail">
+														<p>
+															You will not be required to re-enter
+															your shipping or billing addresses every
+															time you order online. Whenever you
+															place an order, it will be delivered to
+															the registered address on file, unless
+															you direct us otherwise.
+														</p>
+
+														<p>
+															You can browse, shop and, if necessary,
+															complete your order at a later time.
+															We'll keep track of the items you've
+															already put in your shopping bag so that
+															when you come back later, you will not
+															have to re-select the items again. Note
+															that placing items to your shopping bag
+															for purchase at a later time does not
+															guarantee item availability.
+														</p>
+													</div>
+												</li>
+												<!--singel list ends-->
+
+												<!--singel list-->
+												<li class="wow fadeInLeft">
+													<div class="link">
+														Why Should I Become A Registered User?
+														<i class="fa fa-chevron-down"></i>
+													</div>
+
+													<div class="detail">
+														<p>
+															You will not be required to re-enter
+															your shipping or billing addresses every
+															time you order online. Whenever you
+															place an order, it will be delivered to
+															the registered address on file, unless
+															you direct us otherwise.
+														</p>
+
+														<p>
+															You can browse, shop and, if necessary,
+															complete your order at a later time.
+															We'll keep track of the items you've
+															already put in your shopping bag so that
+															when you come back later, you will not
+															have to re-select the items again. Note
+															that placing items to your shopping bag
+															for purchase at a later time does not
+															guarantee item availability.
+														</p>
+													</div>
+												</li>
+												<!--singel list ends-->
+											</ul>
+										</div>
+										<!-- business offers ends-->
+
+										<div role="tabpanel" class="tab-pane" id="tech-sprt">
+											<ul class="acdn accordion">
+												<!--singel list-->
+												<li class="wow fadeInLeft">
+													<div class="link">
+														Lorem ipsum dolor sit amet, consectetuer
+														adipiscing elit?
+														<i class="fa fa-chevron-down"></i>
+													</div>
+
+													<div class="detail">
+														<p>
+															You will not be required to re-enter
+															your shipping or billing addresses every
+															time you order online. Whenever you
+															place an order, it will be delivered to
+															the registered address on file, unless
+															you direct us otherwise.
+														</p>
+
+														<p>
+															You can browse, shop and, if necessary,
+															complete your order at a later time.
+															We'll keep track of the items you've
+															already put in your shopping bag so that
+															when you come back later, you will not
+															have to re-select the items again. Note
+															that placing items to your shopping bag
+															for purchase at a later time does not
+															guarantee item availability.
+														</p>
+													</div>
+												</li>
+												<!--singel list ends-->
+											</ul>
+										</div>
+										<!-- technical support ends-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--tab block ends-->
+
+				<!--try-block-->
+				<div class="container">
+					<div class="try-block text-center">
+						<h3>Não encontrou o que procurava? Entre em contato com a gente!</h3>
+						<a href="#contact-the-team" class="btn hvr-wobble-skew">Contato</a>
+					</div>
+				</div>
+				<!--try block ends-->
+				<!-- ============== Support ends ============== -->
+
+				<!-- ============== select program block starts ============== -->
+				<section class="block select-program-block" id="appoitment-schedule">
+					<div class="container contact-section">
+						<div class="row">
+							<div class="col-md-3 wow fadeInRight contact-left">
+								<div class="w-100 d-flex">
+									<h3 class="programs-text">Partiu, Nutrilight!</h3>
+									<h5 class="m-0">
+										Pronto para começar? Consulte o Nutricionista <br />
+										mais perto de você.
+									</h5>
+								</div>
+							</div>
+							<div class="col-md-6 wow fadeInRight">
+								<div class="plans-background">
+									<form>
+										<fieldset>
+											<input type="text" placeholder="Nome" />
+										</fieldset>
+										<fieldset>
+											<input type="text" placeholder="Email" />
+										</fieldset>
+										<fieldset>
+											<input type="text" placeholder="Telefone" />
+										</fieldset>
+										<fieldset>
+											<input type="text" placeholder="Estado" />
+										</fieldset>
+										<fieldset>
+											<p>Qual o seu objetivo?</p>
+											<div class="select text-lt text-sp">
+												<select>
+													<option value="">Perder Peso</option>
+													<option>Ganhar Massa Magra</option>
+													<option>Reeducação Alimentar</option>
+												</select>
+											</div>
+										</fieldset>
+
+										<fieldset>
+											<input
+												type="submit"
+												class="btn hvr-wobble-horizontal text-lt text-sp"
+												value="Enviar"
+											/>
+										</fieldset>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- ============== select program block ends ============== -->
+
+				<!-- main content ends -->
+			</main>
+			<!-- main content ends -->
+
+			<!-- ============== footer block starts ============== -->
+			<section id="contact-the-team">
+				<footer>
+					<div class="top-footer">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-4 footer-logo">
+									<figure>
+										<a><img
+												class="img-responsive"
+												src="images/logo.png"
+												alt="Footer logo"
+										/></a>
+									</figure>
+								</div>
+								<div
+									class="col-xs-12 col-sm-2 footer-social-links pull-right hidden-md hidden-lg hidden-xs"
+								>
+									<ul>
+										<li>
+											<a href="#"
+												><i class="fa fa-facebook hvr-wobble-top"></i
+											></a>
+										</li>
+										<li>
+											<a href="#"
+												><i class="fa fa-twitter hvr-wobble-top"></i
+											></a>
+										</li>
+										<li>
+											<a href="#"
+												><i class="fa fa-google-plus hvr-wobble-top"></i
+											></a>
+										</li>
+										<li>
+											<a href="#"
+												><i class="fa fa-instagram hvr-wobble-top"></i
+											></a>
+										</li>
+										<li>
+											<a href="#"
+												><i class="fa fa-tumblr hvr-wobble-top"></i
+											></a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-xs-12 col-sm-6 footer-menu">
+									<div class="row">
+										<div class="col-xs-12 col-sm-3 footer-links-col">
+											<span>about</span>
+											<ul>
+												<li>
+													<a href="para-nutri.html">Nutricionistas</a>
+												</li>
+												<li><a href="para-voce.html">Você</a></li>
+											</ul>
+										</div>
+										<div class="col-xs-12 col-sm-3 footer-links-col">
+											<span>press</span>
+											<ul>
+												<li>
+													<a href="#how-the-app-works">Sobre o App</a>
+												</li>
+												<li><a href="#download-the-app">Download</a></li>
+											</ul>
+										</div>
+										<div class="col-xs-12 col-sm-3 footer-links-col">
+											<span>company</span>
+											<ul>
+												<li><a href="#get-ebook">E-book</a></li>
+												<li><a href="#contact-the-team">Contato</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div
+									class="col-xs-12 col-sm-2 footer-social-links pull-right hidden-sm"
+								>
+									<ul>
+										<li>
+											<a href="https://www.facebook.com/nutrilight.fit/"
+												><i class="fa fa-facebook hvr-wobble-top"></i
+											></a>
+										</li>
+										<li>
+											<a href="https://twitter.com/nutrilight_fit"
+												><i class="fa fa-twitter hvr-wobble-top"></i
+											></a>
+										</li>
+										<li>
+											<a
+												href="https://www.youtube.com/channel/UCenGuhnx9tLjyQcK39n_CeA"
+												><i class="fa fa-youtube hvr-wobble-top"></i
+											></a>
+										</li>
+										<li>
+											<a href="https://www.instagram.com/nutrilight.fit/"
+												><i class="fa fa-instagram hvr-wobble-top"></i
+											></a>
+										</li>
+										<li>
+											<a
+												href="https://www.linkedin.com/company/nutrilight/?viewAsMember=true"
+												><i class="fa fa-linkedin hvr-wobble-top"></i
+											></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="bottom-footer">
+						<div class="container">
+							<div class="copyright-text text-center">
+								&copy; 2014-2016 Madang, Inc. ALL RIGHT RESERVED.
+							</div>
+						</div>
+					</div>
+				</footer>
+			</section>
+			<!-- ============== footer block starts ============== -->
+		</div>
+		<!-- main wrapper of the site ends -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/jquery-ui-1.9.2.custom.js"></script>
+		<script src="js/modernizr.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/Headroom.js"></script>
+		<script src="js/jquery.parallax-1.1.3.js"></script>
+		<script src="js/jquery.featureCarousel.js"></script>
+		<script src="js/jquery.bxslider.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/jquery.waypoints.js"></script>
+		<script src="js/jquery.counterup.js"></script>
+		<script src="js/main.js"></script>
+	</body>
 </html>
