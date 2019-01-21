@@ -8336,10 +8336,6 @@ header.green {
     border: 2px solid #f26066;
     font-size: 16px;
     color: #f26066 !important;
-    padding-top: 7px !important;
-    padding-bottom: 7px !important;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
     border-radius: 10px;
     transition: .5s;
 }
@@ -8462,4 +8458,40 @@ h12 {
 
 .contact-section{
     padding-top: 50px;
+}
+
+.forTexts{
+    color: #DC4F57 !important;
+    font-size: 10px !important;
+}
+
+.no-padding{
+    padding: 0px !important;
+}
+
+.padding-for-text{
+    padding-left: 10px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+.menu-text{
+    font-size: 11px !important;
+}
+
+.activeView{
+    background-color: #DC4F57 !important;
+}
+
+.whiteText{
+    color: white !important;
+    font-size: 10px !important;
+}
+
+.padding-2{
+    padding: 5px !important;
+}
+
+.margin-left-5{
+    margin-left: 5px !important;
 }
