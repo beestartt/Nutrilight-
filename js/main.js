@@ -295,6 +295,20 @@ $(function(){
 
 });
 
+function validateFormToEbook(){
+    var name = $("#ebookName").val();
+    var email = $("#ebookEmail").val();
+    var phone = $("#ebookPhone").val();
+
+    if(name == "" || email == "" || phone == ""){
+        alert("Por favor, informe todos as campos antes de baixar o e-book!");
+    }
+    else{
+        window.open("media/receitas-nutrilight-para-voce.pdf", '_blank');
+    }
+
+}
+
 //accordion
 $(function() {
   var Accordion = function(el, multiple) {

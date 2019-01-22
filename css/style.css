@@ -620,9 +620,6 @@ select:focus {
     border: 1px solid #f26066;
     box-shadow: 1px 1px 17px 1px #ddd;
 }
-input:required {
-    background-color: greenyellow;
-}
 
 select {
     display: inline-block;

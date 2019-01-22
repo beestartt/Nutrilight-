@@ -306,23 +306,20 @@
 								>
 									<form>
 										<fieldset>
-											<input type="text" placeholder="Nome" />
+											<input type="text" placeholder="Nome" name="ebookName" id="ebookName" required />
 										</fieldset>
 										<fieldset>
-											<input type="text" placeholder="Email" />
+											<input type="text" placeholder="Email" name="ebookEmail" id="ebookEmail"  required />
 										</fieldset>
 										<fieldset>
-											<input type="text" placeholder="Telefone" />
+											<input type="text" placeholder="Telefone" name="ebookPhone" id="ebookPhone"  required />
 										</fieldset>
-										<fieldset>
-											<a
-												href="media/receitas-nutrilight-para-voce.pdf"
-												target="_blank"
-												class="btn"
-												>RECEBER E-BOOK</a
-											>
-										</fieldset>
-									</form>
+                                                    <button
+                                                    class="btn"
+                                                    onclick="validateFormToEbook()">RECEBER E-BOOK
+                                                    </button
+                                                >
+											
 								</div>
 							</div>
 						</div>
@@ -449,7 +446,7 @@
 												action="https://formspree.io/brenda@beestart.com.br"
 												method="POST"
 											>
-                                                <input type="text" name="nome" class="required" placeholder="Nome" />
+                                                <input type="text" name="nome" placeholder="Nome" />
                                                 <br />
                                                 <br />
                                                 <input type="text" name="email" placeholder="Email" />
