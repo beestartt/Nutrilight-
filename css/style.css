@@ -8496,7 +8496,7 @@ h12 {
 /*======================= WHATSAPP ICON ==================*/
 
 
-.float{
+.float {
 	position: fixed;
 	width:60px;
 	height:60px;
@@ -8518,3 +8518,6 @@ h12 {
 .my-float{
     margin-top:16px;
 }
+
+
+
