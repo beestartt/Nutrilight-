@@ -8509,6 +8509,10 @@ h12 {
   font-size:30px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
+  animation-delay: 0.08s;
+  animation: bounce-out-nds 0.1s linear;
+  animation-fill-mode:  forwards;
+  transition: .5s;
 }
 
 .my-float{
