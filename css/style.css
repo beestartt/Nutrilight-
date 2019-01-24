@@ -8536,6 +8536,47 @@ a:hover, a:focus{
     color: white !important;
 }
 
+
+.phone-float {
+	position: fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0b40a3;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  animation-delay: 0.08s;
+  animation: bounce-out-nds 0.1s linear;
+  animation-fill-mode:  forwards;
+  transition: .5s;
+}
+
+.phone-float:hover{
+    background-color: rgb(0, 16, 104);
+}
+
+.phone-float:hover ~ .whatsappIcon{
+    background-color:white;
+}
+
+.my-phone-float{
+    margin-top:16px;
+}
+
+
+.PhoneIcon:hover{
+    color: white;
+}
+
+a:hover, a:focus{
+    color: white !important;
+}
+
 h14 {
     color: black;
     font-family: 'Montserrat-Regular', sans-serif;
