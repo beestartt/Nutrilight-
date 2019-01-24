@@ -77,7 +77,6 @@ $(function(){
 
   ///// home banner starts
   $("#owl-demo").owlCarousel({
-  autoPlay: 4000, //Set AutoPlay to 3 seconds
   transitionStyle: "fade",
   items: 1,
   itemsDesktop: [1199, 1],
