@@ -8558,6 +8558,11 @@ h13 {
 }
 
 .h4-padding {
-    margin-left: 310px !important;
+    margin-left: 300px !important;
+    margin-right: -360px;
+}
+
+.p-padding {
+    margin-left: 290px !important;
     margin-right: -360px;
 }
