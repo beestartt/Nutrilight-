@@ -8515,9 +8515,23 @@ h12 {
   transition: .5s;
 }
 
+.float:hover{
+    background-color: rgb(0, 104, 31);
+}
+
+.float:hover ~ .whatsappIcon{
+    background-color:white;
+}
+
 .my-float{
     margin-top:16px;
 }
 
 
+.whatsappIcon:hover{
+    color: white;
+}
 
+a:hover, a:focus{
+    color: white !important;
+}
