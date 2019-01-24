@@ -8535,3 +8535,13 @@ h12 {
 a:hover, a:focus{
     color: white !important;
 }
+
+h14 {
+    color: black;
+    font-family: 'Montserrat-Regular', sans-serif;
+    line-height: 10px;
+    display: block;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: -390px;
+}
