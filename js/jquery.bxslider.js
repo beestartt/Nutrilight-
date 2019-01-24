@@ -19,7 +19,7 @@
 		slideSelector: '',
 		infiniteLoop: true,
 		hideControlOnEnd: false,
-		speed: 500,
+		speed: 1000,
 		easing: null,
 		slideMargin: 0,
 		startSlide: 0,
@@ -28,7 +28,7 @@
 		ticker: false,
 		tickerHover: false,
 		adaptiveHeight: false,
-		adaptiveHeightSpeed: 500,
+		adaptiveHeightSpeed: 1000,
 		video: false,
 		useCSS: true,
 		preloadImages: 'hidden',
@@ -65,7 +65,7 @@
 
 		// AUTO
 		auto: false,
-		pause: 4000,
+		pause: 10000,
 		autoStart: true,
 		autoDirection: 'next',
 		autoHover: false,
@@ -636,8 +636,8 @@
 		 * Appends prev / next controls to the controls element
 		 */
 		var appendControls = function(){
-			slider.controls.next = $('<a class="bx-next" href="">Próximo</a>');
-			slider.controls.prev = $('<a class="bx-prev" href="">Anterior</a>');
+			slider.controls.next = $('');
+			slider.controls.prev = $('');
 			// bind click actions to the controls
 			slider.controls.next.bind('click', clickNextBind);
 			slider.controls.prev.bind('click', clickPrevBind);
