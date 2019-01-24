@@ -8539,7 +8539,7 @@ a:hover, a:focus{
 h14 {
     color: black;
     font-family: 'Montserrat-Regular', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 2px;
     display: block;
     margin-top: 25px;
@@ -8550,10 +8550,9 @@ h14 {
 h13 {
     color: black;
     font-family: 'Montserrat-Regular', sans-serif;
-    font-size: 10px;
-    line-height: 70px;
+    font-size: 12px;
+    line-height: 5px;
     display: block;
-    margin-top: 25px;
     margin-left: -125px;
-    margin-right: -990px
+    margin-right: -90px
 }
