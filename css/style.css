@@ -8611,3 +8611,21 @@ h13 {
 .padding-top-5{
     padding-top: 5vh;
 }
+
+.main-banner{
+    height: 79vh;
+    background: url("../images/img-sou-nutri.jpg") no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.secondary-banner{
+    height: 79vh;
+    background: url("../images/gradient.png") no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
