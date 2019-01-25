@@ -2075,8 +2075,8 @@ video {
 }
 
 .download-app-block .left-mobile {
-    width: 15% !important;
-    margin-left: 280px !important;
+    /*width: 15% !important;
+    margin-left: 280px !important;*/
 }
 
 .download-app-block .download-app-text {
@@ -4385,7 +4385,6 @@ footer {
 
 .footer-logo {
     width: 20%;
-    padding-bottom: 100px !important;
 }
 
 .footer-logo figure {
@@ -8357,8 +8356,6 @@ header.green {
     padding-bottom: 10px;
     padding-left: 50px;
     padding-right: 50px;
-    margin-left: 250px !important;
-    margin-right: -300px;
     margin-bottom: 15px;
     border-radius: 20px;
 }
@@ -8367,8 +8364,6 @@ h8 {
     font-size: 30px;
     line-height: 44px;
     color: #fff !important;
-    margin-left: 250px !important;
-    margin-right: -300px;
     margin-bottom: 15px;
 }
 
