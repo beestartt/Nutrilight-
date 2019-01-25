@@ -8627,7 +8627,16 @@ a:hover, a:focus{
 }
 
 .secondary-banner{
-    height: 81vh;
+    height: 79vh;
+    background: url("../images/gradient.png") no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.secondary-banner-nutri{
+    height: 79vh;
     background: url("../images/gradient.png") no-repeat center center fixed;;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -8643,6 +8652,13 @@ a:hover, a:focus{
       margin: 10px auto 5px 20px;
       width: 28%;
       display: none;
+    }
+    .secondary-banner{
+        height: 120vh;
+    }
+
+    .secondary-banner-nutri{
+        height: 95vh;
     }
   }
 
