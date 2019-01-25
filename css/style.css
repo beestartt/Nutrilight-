@@ -5618,6 +5618,11 @@ ul.sucess-slide li p:before {
 
 .support-tab .nav-tabs>li>a.delivery i {
     background: url(../images/delivery-icon.svg) no-repeat top center;
+
+}
+
+.main-svg-color{
+    fill: white;
 }
 
 .support-tab .nav-tabs>li>a.business i {
