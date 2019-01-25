@@ -8456,6 +8456,11 @@ h12 {
     font-size: 10px !important;
 }
 
+.forTexts:hover{
+    color: #DC4F57 !important;
+    font-size: 10px !important;
+}
+
 .no-padding{
     padding: 0px !important;
 }
@@ -8468,6 +8473,10 @@ h12 {
 
 .menu-text{
     font-size: 11px !important;
+}
+
+.menu-text:hover{
+    color: #505050 !important;
 }
 
 .activeView{
