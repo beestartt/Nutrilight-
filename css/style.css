@@ -8627,7 +8627,7 @@ a:hover, a:focus{
 }
 
 .secondary-banner{
-    height: 79vh;
+    height: 81vh;
     background: url("../images/gradient.png") no-repeat center center fixed;;
     -webkit-background-size: cover;
     -moz-background-size: cover;
