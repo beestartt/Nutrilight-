@@ -312,7 +312,7 @@ function validateFormToSubscription(){
     var name = $("#ebookName").val();
     var email = $("#ebookEmail").val();
     var phone = $("#ebookPhone").val();
-    var city = $("#ebookCity").val(); 
+    var city = $("#ebookCity").val();
     var state = $("#ebookState").val();
 
     if(name == "" || email == "" || phone == ""){
