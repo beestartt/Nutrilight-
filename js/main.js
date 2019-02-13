@@ -308,6 +308,20 @@ function validateFormToEbook(){
 
 }
 
+function validateFormToSubscription(){
+    var name = $("#ebookName").val();
+    var email = $("#ebookEmail").val();
+    var phone = $("#ebookPhone").val();
+
+    if(name == "" || email == "" || phone == ""){
+        alert("Por favor, informe todos as campos antes de se cadastrar");
+    }
+    else{
+        window.open("https://formspree.io/contato@nutrilight.fit", '_blank');
+    }
+
+}
+
 //accordion
 $(function() {
   var Accordion = function(el, multiple) {
