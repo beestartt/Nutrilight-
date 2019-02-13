@@ -312,6 +312,8 @@ function validateFormToSubscription(){
     var name = $("#ebookName").val();
     var email = $("#ebookEmail").val();
     var phone = $("#ebookPhone").val();
+    var city = $("#ebookCity").val();
+    var state = $("#ebookState").val();
 
     if(name == "" || email == "" || phone == ""){
         alert("Por favor, informe todos as campos antes de se cadastrar");
