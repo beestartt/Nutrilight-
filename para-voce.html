@@ -142,7 +142,7 @@
 													>Como funciona</a
 												>
 											</li>
-											<li><a href="http://blog.nutrilight.fit" class="menu-text" target="_blank">Blog</a></li>
+											<li><a class="menu-text">Blog</a></li>
 											<li>
 												<a href="#get-ebook" class="menu-text">E-book</a>
 											</li>
@@ -382,13 +382,7 @@
 											class="btn"
 											>RECEBER E-BOOK</a
 										>
-                                    
-                                    </fieldset>
-                                    <button
-												class="btn"
-												onclick="validateFormToEbook()">RECEBER E-BOOK
-												</button
-											>	
+									</fieldset>
 								</form>
 							</div>
 						</div>
@@ -849,7 +843,9 @@
 												<form
 													action="https://formspree.io/contato@nutrilight.fit"
 													method="POST"
-												>
+                                                >
+                                                <input type="hidden" name="_next" value="http://nutrilight.fit/" />
+
 													<input type="text" name="nome" placeholder="Nome" />
 													<br />
 													<br />
