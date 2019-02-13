@@ -294,6 +294,16 @@ $(function(){
 
 });
 
+function downloadURI(uri, name) {
+    var link = document.createElement("a");
+    link.download = name;
+    link.href = uri;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    delete link;
+  }
+
 function validateFormToEbook(){
     var name = $("#ebookName").val();
     var email = $("#ebookEmail").val();
@@ -303,24 +313,31 @@ function validateFormToEbook(){
         alert("Por favor, informe todos as campos antes de baixar o e-book!");
     }
     else{
-        window.open("media/receitas-nutrilight-para-voce.pdf", '_blank');
+        $("#ebookForm").submit();
+        //downloadURI("media/receitas-nutrilight-para-voce.zip", "Receitas Nutrilight para você.pdf");
+        window.open("media/receitas-nutrilight-para-voce.zip", '_blank');
     }
 
 }
 
-function validateFormToSubscription(){
-    var name = $("#ebookName").val();
-    var email = $("#ebookEmail").val();
-    var phone = $("#ebookPhone").val();
-    var city = $("#ebookCity").val();
-    var state = $("#ebookState").val();
 
-    if(name == "" || email == "" || phone == ""){
+
+function validateFormToSubscription(){
+    var name = $("#ebookNameRegister").val();
+    var email = $("#ebookEmailRegister").val();
+    var phone = $("#ebookPhoneRegister").val();
+    var city = $("#ebookCityRegister").val();
+    var state = $("#ebookStateRegister").val();
+
+    if(name == "" || email == "" || phone == "" || city == "" || state == ""){
         alert("Por favor, informe todos as campos antes de se cadastrar");
     }
     else{
-        window.open("https://formspree.io/contato@nutrilight.fit", '_blank');
+        /* window.open("https://formspree.io/contato@nutrilight.fit", '_blank'); */
+        $("#registerForm").submit();
     }
+
+    return false;
 
 }
 

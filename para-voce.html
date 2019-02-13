@@ -347,49 +347,54 @@
 
 				<!-- ============== Contact form block starts ============== -->
 				<section class="secondary-banner contact-form" id="get-ebook">
-					<div class="container">
+                        <div class="container">
                             <br>
-						<h8 class="wow fadeInUp">CONQUISTE SEUS OBJETIVOS COM A NUTRILIGHT!</h8>
-						<div class="row">
-							<div class="col-xs-12 col-sm-7 contact-left-text wow fadeInLeft">
-								<h10>
-									<br /><br />
-									Tenha acesso completo ao novo e-book de receitas da Nutrilight!
-									<br />
-									<br />
-								</h10>
-								<h9>
-									Criado por nutricionistas profissionais, nosso e-book é GRATUITO
-									<br />
-									e visa ajudar você a conquistar seus objetivos! <br />
-									Para receber o e-book, preencha os campos ao lado e comece já
-									<br />
-									a colocar suas receitas em prática!
-								</h9>
-							</div>
-							<div
-								class="col-xs-12 col-sm-5 contact-right-form wow fadeInRight contact-section"
-							>
-								<form>
-									<fieldset><input type="text" placeholder="Nome" /></fieldset>
-									<fieldset><input type="text" placeholder="Email" /></fieldset>
-									<fieldset>
-										<input type="text" placeholder="Telefone" />
-									</fieldset>
-									<fieldset>
-										<a
-											href="media/receitas-nutrilight-para-voce.pdf"
-											target="underlineblank"
-											class="btn"
-											>RECEBER E-BOOK</a
-										>
-									</fieldset>
-								</form>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- ============== Contact form block ends ============== -->
+                            <h8 class="wow fadeInUp">CONQUISTE SEUS OBJETIVOS COM A NUTRILIGHT!</h8>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-7 contact-left-text wow fadeInLeft">
+                                    <h10>
+                                        <br /><br />
+                                        Tenha acesso completo ao novo e-book de receitas da
+                                        Nutrilight! <br />
+                                        <br />
+                                    </h10>
+                                    <h9>
+                                        Criado por nutricionistas profissionais, nosso e-book é
+                                        GRATUITO <br />
+                                        e visa ajudar você a conquistar seus objetivos! <br />
+                                        Para receber o e-book, preencha os campos ao lado e comece
+                                        já <br />
+                                        a colocar suas receitas em prática!
+                                    </h9>
+                                </div>
+                                <div
+                                    class="col-xs-12 col-sm-5 contact-right-form wow fadeInRight contact-section"
+                                >
+                                <form
+                                                        action="https://formspree.io/contato@nutrilight.fit"
+                                                        method="POST"
+                                                        id="ebookForm"
+                                                    >
+                                        <fieldset>
+                                            <input type="text" placeholder="Nome" name="ebookName" id="ebookName" />
+                                        </fieldset>
+                                        <fieldset>
+                                            <input type="text" placeholder="Email" name="ebookEmail" id="ebookEmail"  />
+                                        </fieldset>
+                                        <fieldset>
+                                            <input type="text" placeholder="Telefone" name="ebookPhone" id="ebookPhone"  />
+                                        </fieldset>
+                                                    <button
+                                                    type="button"
+                                                    class="btn"
+                                                    onclick="validateFormToEbook()">RECEBER E-BOOK
+                                                    </button>	
+                                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ============== Contact form block ends ============== -->
 
 				<!-- ============== Support starts ============== -->
 

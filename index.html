@@ -309,7 +309,12 @@
 							</div>
 							<div
 								class="col-xs-12 col-sm-5 contact-right-form wow fadeInRight contact-section"
-							>
+                            >
+                            <form
+													action="https://formspree.io/contato@nutrilight.fit"
+                                                    method="POST"
+                                                    id="ebookForm"
+                                                >
 									<fieldset>
 										<input type="text" placeholder="Nome" name="ebookName" id="ebookName" />
 									</fieldset>
@@ -319,10 +324,12 @@
 									<fieldset>
 										<input type="text" placeholder="Telefone" name="ebookPhone" id="ebookPhone"  />
 									</fieldset>
-												<button
+                                                <button
+                                                type="button"
 												class="btn"
 												onclick="validateFormToEbook()">RECEBER E-BOOK
-												</button>	
+                                                </button>	
+                                                </form>
 							</div>
 						</div>
 					</div>
@@ -648,23 +655,24 @@
 											<fieldset>
 												<form
 													action="https://formspree.io/contato@nutrilight.fit"
-													method="POST"
+                                                    method="POST"
+                                                    id="registerForm"
                                                 >
                                                 <input type="hidden" name="_next" value="http://nutrilight.fit/" />
 
-													<input type="text" name="nome" placeholder="Nome" id="ebookName" />
+													<input type="text" name="nome" placeholder="Nome" id="ebookNameRegister" />
 													<br />
 													<br />
-													<input type="text" name="email" placeholder="Email" id="ebookEmail" />
+													<input type="text" name="email" placeholder="Email" id="ebookEmailRegister" />
 													<br />
 													<br />
-													<input type="text" name="phone" placeholder="Telefone" id="ebookPhone" />
+													<input type="text" name="phone" placeholder="Telefone" id="ebookPhoneRegister" />
 													<br />
 													<br />
-													<input type="text" name="city" placeholder="Cidade" id="ebookCity" />
+													<input type="text" name="city" placeholder="Cidade" id="ebookCityRegister" />
 													<br />
 													<br />
-													<input type="text" name="state" placeholder="Estado" id="ebookState" />
+													<input type="text" name="state" placeholder="Estado" id="ebookStateRegister" />
 													<br /> 
 													<br />
 													<p>Qual o seu objetivo?</p>
@@ -680,13 +688,8 @@
 	
 													 </select>
 												</div>
-                                                <input type="submit" class="btn hvr-wobble-horizontal text-lt text-sp" 
-                                                target="_blank" value="Enviar" />	
-
-                                                <button
-												class="btn hvr-wobble-horizontal text-lt text-sp"
-												onclick="validateFormToSubscription()">ENVIAR CADASTRO
-												</button>	
+                                                <input type="button" class="btn hvr-wobble-horizontal text-lt text-sp" 
+                                                value="Enviar" onclick="validateFormToSubscription()"/>	
                                                 	
                                             </form>
                                         </form>
