@@ -320,8 +320,6 @@ function validateFormToEbook(){
 
 }
 
-
-
 function validateFormToSubscription(){
     var name = $("#ebookNameRegister").val();
     var email = $("#ebookEmailRegister").val();
