@@ -8662,3 +8662,8 @@ a:hover, a:focus{
   .footerDiv{
       display: none !important
   }
+
+  .contact-phone{
+    margin-right: 3vh;
+    color: #f26066 !important;
+  }
