@@ -315,7 +315,7 @@ function validateFormToEbook(){
     else{
         $("#ebookForm").submit();
         //downloadURI("media/receitas-nutrilight-para-voce.zip", "Receitas Nutrilight para você.pdf");
-        window.open("media/19_Maneiras_DE_ENCHER_O_CONSULTORIO", '_blank');
+        window.open("media/19_Maneiras_DE_ENCHER_O_CONSULTORIO.pdf", '_blank');
     }
 
 }
