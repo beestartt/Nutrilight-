@@ -99,6 +99,10 @@ video {
     padding: 0;
     vertical-align: baseline
 }
+.type_PHN_DDI{
+     width: 0;
+    display: none;
+}
 
 article,
 aside,
@@ -8633,7 +8637,7 @@ a:hover, a:focus{
 }
 
 .secondary-banner-nutri{
-    height: 79vh;
+    height: 100vh;
     background: url("../images/gradient.png") no-repeat center center fixed;;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -8652,10 +8656,6 @@ a:hover, a:focus{
     }
     .secondary-banner{
         height: 120vh;
-    }
-
-    .secondary-banner-nutri{
-        height: 95vh;
     }
   }
 

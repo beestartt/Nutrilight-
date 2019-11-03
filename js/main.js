@@ -336,10 +336,9 @@ function validateFormToSubscription(){
     }
 
     return false;
-
 }
 
-//accordion
+
 $(function() {
   var Accordion = function(el, multiple) {
     this.el = el || {};
@@ -365,3 +364,5 @@ $(function() {
 
   var accordion = new Accordion($('.acdn'), false);
 });
+
+

@@ -1,1044 +1,1954 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
+<head>
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5TF537K');</script>
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5TF537K');</script>
     <!-- End Google Tag Manager -->
 
     <!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '175833326342878');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=175833326342878&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '175833326342878');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=175833326342878&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
 
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-		<!-- favicon -->
-		<link rel="shortcut icon" type="image/png" href="favicon.png" />
-		<link rel="shortcut icon" type="image/png" href="favicon.png" />
-		<title>Nutrilight - Para você</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <title>Nutrilight - Para você</title>
 
-		<!-- style lists -->
-		<link href="css/bootstrap.min.css" rel="stylesheet" />
-		<link href="css/animate.css" rel="stylesheet" />
-		<link href="css/hover.css" rel="stylesheet" />
-		<link href="css/font-awesome.css" rel="stylesheet" />
-		<link href="css/jquery.bxslider.css" rel="stylesheet" />
-		<link href="css/owl.carousel.css" rel="stylesheet" />
-		<link href="css/owl.transitions.css" rel="stylesheet" />
-		<link rel="stylesheet" href="css/feature-carousel.css" />
-		<link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet" />
-		<link href="css/style.css" rel="stylesheet" />
+    <!-- style lists -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/animate.css" rel="stylesheet"/>
+    <link href="css/hover.css" rel="stylesheet"/>
+    <link href="css/font-awesome.css" rel="stylesheet"/>
+    <link href="css/jquery.bxslider.css" rel="stylesheet"/>
+    <link href="css/owl.carousel.css" rel="stylesheet"/>
+    <link href="css/owl.transitions.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/feature-carousel.css"/>
+    <link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
 
-		<!-- montserrat font embed -->
-		<link
-			href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700"
-			rel="stylesheet"
-			type="text/css"
+    <!-- montserrat font embed -->
+    <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700"
+            rel="stylesheet"
+            type="text/css"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114468843-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114468843-1');
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        /******* loader image before page load ******/
+        .no-js #loader {
+            display: none;
+        }
+
+        .js #loader {
+            display: block;
+            position: absolute;
+            left: 100px;
+            top: 0;
+        }
+
+        .se-pre-con {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url(images/Preloader_4.gif) center no-repeat #fff;
+        }
+        .DinamizeDivMessageSuccess, .DinamizeDivMessageAlert, .DinamizeDivMessageError, .DinamizeDivCaptchaMessage, .DinamizeDivMessageSuccessPessoa {
+            display: none;
+            margin: 0px 0px 10px;
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+            font-family: arial;
+            padding: 15px;
+        }
+
+        .DinamizeDivMessageSuccess  .DinamizeDivMessageSuccessPessoa{
+            background-color: rgb(20, 118, 18);
+        }
+
+        .DinamizeDivMessageAlert, .DinamizeDivMessageError, .DinamizeDivCaptchaMessage {
+            background-color: #ac0000;
+        }
+    </style>
+    <script type="text/javascript">
+
+        /* Suggested Phone Validation ==> http://jackocnr.com/intl-tel-input.html*/
+
+        !function (t, e) {
+            "function" == typeof define && define.amd ? define(e) : "object" == typeof exports ? module.exports = e() : t.VMasker = e()
+        }(this, function () {
+            var t = "9", e = "A", n = "S", i = [8, 9, 16, 17, 18, 36, 37, 38, 39, 40, 91, 92, 93], o = function (t) {
+                for (var e = 0, n = i.length; n > e; e++) if (t == i[e]) return !1;
+                return !0
+            }, r = function (t) {
+                return t = t || {}, t = {
+                    precision: t.hasOwnProperty("precision") ? t.precision : 2,
+                    separator: t.separator || ",",
+                    unit: t.unit && t.unit.replace(/[\s]/g, "") + " " || "",
+                    suffixUnit: t.suffixUnit && " " + t.suffixUnit.replace(/[\s]/g, "") || "",
+                    zeroCents: t.zeroCents,
+                    lastOutput: t.lastOutput
+                }, t.moneyPrecision = t.zeroCents ? 0 : t.precision, t
+            }, s = function (i, o, r) {
+                for (; o < i.length; o++) (i[o] === t || i[o] === e || i[o] === n) && (i[o] = r);
+                return i
+            }, l = function (t) {
+                this.elements = t
+            };
+            l.prototype.unbindElementToMask = function () {
+                for (var t = 0, e = this.elements.length; e > t; t++) this.elements[t].lastOutput = "", this.elements[t].onkeyup = !1, this.elements[t].onkeydown = !1, this.elements[t].value.length && (this.elements[t].value = this.elements[t].value.replace(/\D/g, ""))
+            }, l.prototype.bindElementToMask = function (t) {
+                for (var e = this, n = function (n) {
+                    n = n || window.event;
+                    var i = n.target || n.srcElement;
+                    o(n.keyCode) && setTimeout(function () {
+                        e.opts.lastOutput = i.lastOutput, i.value = a[t](i.value, e.opts), i.lastOutput = i.value, i.setSelectionRange && e.opts.suffixUnit && i.setSelectionRange(i.value.length, i.value.length - e.opts.suffixUnit.length)
+                    }, 0)
+                }, i = 0, r = this.elements.length; r > i; i++) this.elements[i].lastOutput = "", this.elements[i].onkeyup = n, this.elements[i].value.length && (this.elements[i].value = a[t](this.elements[i].value, this.opts))
+            }, l.prototype.maskMoney = function (t) {
+                this.opts = r(t), this.bindElementToMask("toMoney")
+            }, l.prototype.maskNumber = function () {
+                this.opts = {}, this.bindElementToMask("toNumber")
+            }, l.prototype.maskAlphaNum = function () {
+                this.opts = {}, this.bindElementToMask("toAlphaNumeric")
+            }, l.prototype.maskPattern = function (t) {
+                this.opts = {pattern: t}, this.bindElementToMask("toPattern")
+            }, l.prototype.unMask = function () {
+                this.unbindElementToMask()
+            };
+            var a = function (t) {
+                if (!t) throw new Error("VanillaMasker: There is no element to bind.");
+                var e = "length" in t ? t.length ? t : [] : [t];
+                return new l(e)
+            };
+            return a.toMoney = function (t, e) {
+                if (e = r(e), e.zeroCents) {
+                    e.lastOutput = e.lastOutput || "";
+                    var n = "(" + e.separator + "[0]{0," + e.precision + "})", i = new RegExp(n, "g"),
+                        o = t.toString().replace(/[\D]/g, "").length || 0,
+                        s = e.lastOutput.toString().replace(/[\D]/g, "").length || 0;
+                    t = t.toString().replace(i, ""), s > o && (t = t.slice(0, t.length - 1))
+                }
+                var l = t.toString().replace(/[\D]/g, ""), a = new RegExp("(\\" + e.separator + ")$"),
+                    u = l.substr(0, l.length - e.moneyPrecision), p = u.substr(0, u.length % 3),
+                    h = new Array(e.precision + 1).join("");
+                u = u.substr(u.length % 3, u.length);
+                for (var c = 0, f = u.length; f > c; c++) p += u[c];
+                if (!e.zeroCents) {
+                    var g = l.length - e.precision, m = l.substr(g, e.precision), v = m.length,
+                        y = e.precision > v ? e.precision : v;
+                    h = (h + m).slice(-y)
+                }
+                var b = e.unit + p + e.separator + h + e.suffixUnit;
+                return b.replace(a, "")
+            }, a.toPattern = function (i, o) {
+                var r, l = "object" == typeof o ? o.pattern : o, a = l.replace(/\W/g, ""), u = l.split(""),
+                    p = i.toString().replace(/\W/g, ""), h = p.replace(/\W/g, ""), c = 0, f = u.length,
+                    g = "object" == typeof o ? o.placeholder : void 0;
+                for (r = 0; f > r; r++) {
+                    if (c >= p.length) {
+                        if (a.length == h.length) return u.join("");
+                        if (void 0 !== g && a.length > h.length) return s(u, r, g).join("");
+                        break
+                    }
+                    if (u[r] === t && p[c].match(/[0-9]/) || u[r] === e && p[c].match(/[a-zA-Z]/) || u[r] === n && p[c].match(/[0-9a-zA-Z]/)) u[r] = p[c++]; else if (u[r] === t || u[r] === e || u[r] === n) return void 0 !== g ? s(u, r, g).join("") : u.slice(0, r).join("")
+                }
+                return u.join("").substr(0, r)
+            }, a.toNumber = function (t) {
+                return t.toString().replace(/(?!^-)[^0-9]/g, "")
+            }, a.toAlphaNumeric = function (t) {
+                return t.toString().replace(/[^a-z0-9 ]+/i, "")
+            }, a
+        });
+
+        // Mantem apenas a versão mais recente do script
+        if (typeof dinForms == "undefined" || dinForms.version < 1.3) {
+            var dinForms = {
+                version: 1.3,
+                onLoad: function () {
+                    //
+                    var forms = document.getElementsByClassName("formIntegration");
+                    for (var k = 0; k < forms.length; ++k) {
+                        var inputElement = forms[k].getElementsByClassName("din-input-mask");
+                        for (var i = 0; i < inputElement.length; ++i) {
+                            switch (inputElement[i].getAttribute("din-mask-type")) {
+                                case "DT":
+                                case "DH":
+                                    var str = inputElement[i].getAttribute("format");
+                                    VMasker(inputElement[i]).maskPattern(str.replace(/D|M|A|Y|H/g, "9"));
+                                    break;
+                                case "INT":
+                                    VMasker(inputElement[i]).maskNumber();
+                                    break;
+                                case "FLT":
+                                    var str = inputElement[i].getAttribute("format");
+                                    VMasker(inputElement[i]).maskMoney({separator: str});
+                                    break;
+                            }
+                        }
+                    }
+
+                    //
+                    var referer = document.referrer ? document.referrer.match(/:\/\/(.[^/]+)/)[1] : "";
+                    var hostname = window.location.hostname;
+                    if (referer != hostname) {
+                        var jsonParams = {"url": window.location.href, "referer": document.referrer};
+                        var cookieData = btoa(JSON.stringify(jsonParams));
+                        dinForms.SetCookie("dinTrafficSource", cookieData, 90);
+                    }
+                },
+                ValidateForm: function (form) {
+                    this.LimpaAvisos(form);
+             //       alert(form.elements.length);
+                    /********************************************************/
+                    // validação de cada tipo de campo
+                    /********************************************************/
+                    var elem = form.elements;
+                    var enviar = true;
+                    for (var i = 0; i < elem.length; i++) {
+
+                        if (elem[i].type == "hidden") {
+                    //        alert(i);
+                            continue
+                        }
+                   //     alert(elem[i].type);
+                        var classList = elem[i].className.split(" ");
+
+                        this.removeClass("field-error", elem[i]);
+                        elem[i].value = elem[i].value.trim();
+
+                        if (classList.indexOf("type_EMAIL") != -1) {
+                            if (!this.validateEmail(elem[i].value)) {
+                                this.addClass("field-error", elem[i]);
+                                enviar = false;
+                            }
+                        } else if (classList.indexOf("type_DT") != -1) {
+                            if (elem[i].value != "" && !this.existDate(this.prepareDate(elem[i].value, elem[i].getAttribute("format")), false)) {
+                                this.addClass("field-error", elem[i]);
+                                enviar = false;
+                            }
+                        } else if (classList.indexOf("type_DH") != -1) {
+                            if (elem[i].value != "" && !this.existDate(this.prepareDate(elem[i].value, elem[i].getAttribute("format")), true)) {
+                                this.addClass("field-error", elem[i]);
+                                enviar = false;
+                            }
+                        } else if (classList.indexOf("type_PHN_NUM") != -1) {
+                            var fieldName = elem[i].getAttribute("hd-name");
+                            var text = elem[i].value;
+                            var patPhone = /\d+/g;
+                            var res;
+                            var resultNum = "";
+                            var resultDDI = "";
+                            res = text.match(patPhone);
+
+                            if (res !== null) {
+                                resultNum = res.join("");
+                            }
+
+                            form.elements[fieldName].value = "";
+
+                            if ( text != "" && resultNum.length < 3) {
+                                this.addClass("field-error", elem[i]);
+                                enviar = false;
+                            } else if (resultNum.length >= 3) {
+
+                                text = form.elements[fieldName + "_DDI"].value
+                                res = text.match(patPhone);
+
+                                if (res !== null) {
+                                    resultDDI = res.join("");
+                                    form.elements[fieldName].value = resultDDI + resultNum;
+                                } else {
+                                    this.addClass("field-error", form.elements[fieldName + "_DDI"]);
+                                    enviar = false;
+                                }
+                            }
+                        }
+
+                        // CAMPOS OBRIGATORIOS
+                        if (classList.indexOf("field-required") != -1) {
+
+                            // Todos os campos não-LVM
+                            if (classList.indexOf("type_LVM") == -1) {
+                                if (elem[i].value.trim() == "") {
+                                    this.addClass("field-error", elem[i]);
+                                    enviar = false;
+                                }
+                            }
+
+                            // else lvm...
+                            if (classList.indexOf("type_LVM") != -1) {
+                                var hdName = elem[i].getAttribute("hd-name");
+                                var ok = false;
+
+                                this.removeClass("field-error", form.getElementsByClassName("containerMultiple_" + hdName)[0]); // é o único caso que a classe é removida deste jeito
+
+                                var checkboxes = form.getElementsByClassName("chk_" + hdName);
+                                for (var j = 0; j < checkboxes.length; j++) {
+                                    if (checkboxes[j].checked == true) {
+                                        ok = true;
+                                        break;
+                                    }
+                                }
+                                if (!ok) {
+                                    this.addClass("field-error", form.getElementsByClassName("containerMultiple_" + hdName)[0]);
+                                    enviar = false;
+                                }
+                            }
+                        }
+
+                    }
+                    /********************************************************/
+                    // Em caso de falha na validação...
+                    // Mensagem de Campo Obrigatório
+                    /********************************************************/
+                    if (!enviar) {
+                        var msgError = form.getElementsByClassName("DinamizeDivMessageError")[0];
+                        if (msgError && msgError.innerHTML.length) {
+                            msgError.style.display = "block";
+                        }
+                        return false
+                    }
+
+                    /********************************************************/
+                    // Escreve valores nos campos hidden (quando necessário)
+                    /********************************************************/
+
+                    // Listas de Valores Multiplos (LVM)
+                    var lvmElements = form.getElementsByClassName("type_LVM");
+                    var checkboxes, checkedValues;
+                    var hdName;
+                    for (var i = 0; i < lvmElements.length; i++) {
+                        hdName = lvmElements[i].getAttribute("hd-name");
+
+                        checkboxes = form.getElementsByClassName("chk_" + hdName);
+                        checkedValues = "";
+
+                        if (checkboxes.length > 0) {
+                            for (var k = 0; k < checkboxes.length; k++) {
+                                if (checkboxes[k].checked) {
+                                    checkedValues += "|" + checkboxes[k].value;
+                                }
+                            }
+                        }
+                        checkedValues = checkedValues.replace("|", "");
+                        form.elements[lvmElements[i].getAttribute("hd-name")].value = checkedValues;
+                    }
+
+                    // Datas
+                    this.setDateValues(form, "type_DT");
+                    this.setDateValues(form, "type_DH");
+
+                    // Floats
+                    var fltElements = form.getElementsByClassName("type_FLT");
+                    for (var i = 0; i < fltElements.length; i++) {
+                        form.elements[fltElements[i].getAttribute("hd-name")].value = fltElements[i].value.replace(",", ".");
+                    }
+                    ;
+
+                    /********************************************************/
+                    // finalizando...
+                    /********************************************************/
+
+                    //  se for preview... dá msg de sucesso e cai fora!
+                    var isPreview = form.elements["isPreview"];
+                    if (isPreview) {
+                        dinForms.ResetFormValues(form);
+                        return false
+                    }
+
+                    // LEADTRACKER
+                    // Precisamos descobrir se o objeto de leadTracker existe no mesmo frame que este formulário está, ou se está no parent (ou no top).
+                    // Usamos a referencia deste frame a partir disto.
+                    // Para ter o máximo de compatibilidade, verifico se o browser suporta estes objetos.
+                    // Resolve idealmente o uso de leadtracker por popups
+
+                    // faz try-catch pois o frame parent/top pode ser de outro dominio, isto gerará um erro do tipo cross-domain.
+                    try {
+                        var frame
+                        if (typeof dinLeadTracker !== "undefined") {
+                            frame = window;
+                        } else if (typeof window.parent !== "undefined" && typeof window.parent.dinLeadTracker !== "undefined") {
+                            frame = window.parent;
+                        } else if (typeof window.top !== "undefined" && typeof window.top.dinLeadTracker !== "undefined") {
+                            frame = window.top;
+                        }
+
+                        // se encontramos leadtracker em algum dos frames, seta!
+                        if (typeof frame !== "undefined" && frame.dinLeadTracker.isActive()) {
+                            var formElements = form.elements;
+                            if (typeof formElements.cmp1 !== "undefined") {
+                                frame.dinLeadTracker.SetLeadEmail(formElements.cmp1.value);
+                            }
+                            if (typeof formElements.cmp3 !== "undefined") {
+                                frame.dinLeadTracker.SetLeadExternalId(formElements.cmp3.value);
+                            }
+                        }
+                    } catch (e) {
+                        console.warn("Leadtracker ignored because of Cross-Domain error.");
+                        console.warn(e);
+                    }
+
+                    // Se o form usa "msg", não faz action com redirect.
+                    var isMsg = form.elements["isMsg"].value;
+                    var redirectElement = form.elements["redirect-url-js"] ? form.elements["redirect-url-js"] : form.elements["redirect-url-pp"];
+                    if (isMsg == "true" || (redirectElement && redirectElement.value != "")) {
+                        this.LoadingForm(form);
+                        return false; // posta o conteudo, mas não executa action do form
+                    }
+
+                    // Posta pro nosso receiver e este fará um redirect.
+                    return true;
+                },
+                setDateValues: function (form, className) {
+                    var dtElements = form.getElementsByClassName(className);
+                    for (var i = 0; i < dtElements.length; i++) {
+                        if (dtElements[i].value == "") {
+                            continue;
+                        }
+                        form.elements[dtElements[i].getAttribute("hd-name")].value = this.prepareDate(dtElements[i].value, dtElements[i].getAttribute("format"));
+                    }
+                    ;
+                },
+                // NOVO, apenas landing page
+                SetCookie: function (cname, cvalue, exdays) {
+                    var d = new Date();
+                    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                    var expires = "expires=" + d.toUTCString();
+                    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+                },
+                hasCaptcha: function (form) {
+                    // Detecta se existe este elemento (deprecated) de captcha.
+                    if (form.elements["dnz-captcha-google"] != undefined) {
+                        return true;
+                    }
+                    // Validação normal
+                    var action = form.getAttribute("action");
+                    if (action === null) {
+                        return false;
+                    }
+
+                    action = action.split("/");
+                    if (action.length == 8) {
+                        if (action[7] == 1) {
+                            return true;
+                        }
+                    }
+                    return false;
+                },
+                LoadingForm: function (form) {
+                    // só para site e landingpage
+                    var isCaptcha = this.hasCaptcha(form);
+                    if (isCaptcha) {
+                        form.getElementsByClassName("DinamizeDivCaptchaMessage")[0].style.display = "none";
+                        var recaptcha = form.elements["g-recaptcha-response"];
+                        if (recaptcha.value === "") {
+                            form.getElementsByClassName("DinamizeDivCaptchaMessage")[0].style.display = "block";
+                            grecaptcha.reset(); // ver se precisa
+                            return;
+                        }
+                    }
+
+                    //
+                    if (document.getElementById("DinamizeIframeFormIntegration") == undefined) {
+                        var ifrm = document.createElement("iframe");
+                        ifrm.setAttribute("id", "DinamizeIframeFormIntegration");
+                        ifrm.setAttribute("name", "DinamizeIframeFormIntegration");
+                        ifrm.style.display = "none";
+                        document.body.appendChild(ifrm);
+                    }
+
+                    if (this.GetCookie("dinTrafficSource")) {
+                        // MANTER COM ID, SÓ PRECISAMOS DE UM POR document
+                        if (document.getElementById("__dinTrafficSource")) {
+                            document.getElementById("__dinTrafficSource").setAttribute("value", this.GetCookie("dinTrafficSource"));
+                        } else {
+                            var ts = document.createElement("input");
+                            ts.type = "hidden";
+                            ts.name = "__dinTrafficSource";
+                            // MANTER COM ID, SÓ PRECISAMOS DE UM POR document
+                            ts.id = "__dinTrafficSource";
+                            ts.value = this.GetCookie("dinTrafficSource");
+                            form.appendChild(ts);
+                        }
+                    }
+
+                    this.Spinner(form, true);
+
+                    var redirectElement = form.elements["redirect-url-pp"];
+                    if (redirectElement && redirectElement.value != "") {
+                        this.Request(form.getAttribute("action") + "/", this.serialize(form), form);
+                    } else {
+                        // Usa um "img" para fazer uma requisição
+                        var imgReq = document.createElement("img");
+                        imgReq.setAttribute("id", "DinamizeImgResponse");
+                        imgReq.style.display = "none"; // redundancia
+
+                        imgReq.onload = function () {
+                            // LandingPage
+                            redirectElement = form.elements["redirect-url-js"];
+                            if (redirectElement && redirectElement.value != "") {
+                                location.href = redirectElement.value;
+                            }
+                            // Fim LandingPage
+                            dinForms.Spinner(form, false);
+                            dinForms.ResetFormValues(form);
+                        }
+                        imgReq.onerror = function () {
+                            dinForms.Spinner(form, false);
+
+                            // elemento deprecated
+                            var msgErrorDep = form.getElementsByClassName("divMessageError")[0];
+                            if (msgErrorDep) {
+                                msgErrorDep.style.display = "block";
+                            }
+
+                            var msgAlert = form.getElementsByClassName("DinamizeDivMessageAlert")[0];
+                            if (msgAlert) {
+                                msgAlert.style.display = "block";
+                            }
+                        }
+                        imgReq.src = form.getAttribute("action") + "/?" + this.serialize(form) + "&a=" + Math.floor((Math.random() * 99999) + 1);
+                        form.appendChild(imgReq);
+                    }
+                    if (isCaptcha) {
+                        grecaptcha.reset();
+                    }
+                },
+                Request: function (url, params, form) {
+                    var xmlhttp = new XMLHttpRequest();
+                    xmlhttp.onreadystatechange = function () {
+                        if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
+                            if (xmlhttp.status >= 200 && xmlhttp.status <= 299) {
+                                parent.location.href = form.elements["redirect-url-pp"].value;
+                                dinForms.Spinner(form, false);
+                                dinForms.ResetFormValues(form);
+                            } else {
+                                dinForms.Spinner(form, false);
+                                // elemento deprecated
+                                var msgErrorDep = form.getElementsByClassName("divMessageError")[0];
+                                if (msgErrorDep) {
+                                    msgErrorDep.style.display = "block";
+                                }
+                                var msgAlert = form.getElementsByClassName("DinamizeDivMessageAlert")[0];
+                                if (msgAlert) {
+                                    msgAlert.style.display = "block";
+                                }
+                            }
+                        }
+                    };
+                    if (typeof params === "string" && params !== "") {
+                        url += "?" + params; // encodeURI(params);
+                    }
+
+                    xmlhttp.open("POST", url, true);
+                    xmlhttp.send();
+                },
+                Spinner: function (form, show) {
+                    // manter versão por compatibilidade?
+                    var submitElement = form.getElementsByClassName("dinSubmit")[0];
+                    var spinnerElement = form.getElementsByClassName("spinner")[0];
+
+                    if (show) {
+                        if (spinnerElement)
+                            spinnerElement.style.display = "block";
+
+                        if (submitElement)
+                            submitElement.value = "";
+
+                    } else {
+                        if (spinnerElement)
+                            spinnerElement.style.display = "none";
+
+                        if (submitElement)
+                            submitElement.value = submitElement.getAttribute("original-value");
+                    }
+                },
+                GetCookie: function (cname) {
+                    var name = cname + "=";
+                    var decodedCookie = decodeURIComponent(document.cookie);
+                    var ca = decodedCookie.split(";");
+                    for (var i = 0; i < ca.length; i++) {
+                        var c = ca[i];
+                        while (c.charAt(0) == " ") {
+                            c = c.substring(1);
+                        }
+                        if (c.indexOf(name) == 0) {
+                            return c.substring(name.length, c.length);
+                        }
+                    }
+                    return "";
+                },
+                ResetFormValues: function (form) {
+                    // jquery existe?
+                    if (typeof ($) != "undefined") {
+                        // iCheck existe?
+                        if ((typeof ($().iCheck) != "undefined")) {
+                            $(form).find("input[type=\"checkbox\"]:not(.cssOnly)").iCheck("uncheck");
+                        }
+                    }
+
+                    var msgSuccess = form.getElementsByClassName("DinamizeDivMessageSuccess")[0];
+                    var msgSucessPessoa = form.getElementsByClassName("DinamizeDivMessageSuccessPessoa")[0];
+                    if (msgSuccess || msgSucessPessoa) {
+                        if(msgSuccess)
+                            msgSuccess.style.display = "block";
+                        if(msgSucessPessoa)
+                            msgSucessPessoa.style.display = "block";
+                    }
+                    var imgRequest = document.getElementById("DinamizeImgResponse");
+                    if (imgRequest) {
+                        imgRequest.remove();
+                    }
+                    form.reset();
+                },
+                LimpaAvisos: function (form) {
+                    var msgSuccess = form.getElementsByClassName("DinamizeDivMessageSuccess")[0];
+                    if (msgSuccess)
+                        msgSuccess.style.display = "none";
+                    var msgSucessPessoa = form.getElementsByClassName("msgSucessPessoa")[0];
+                    if(msgSucessPessoa)
+                        msgSucessPessoa.style.display="none";
+                    var msgAlert = form.getElementsByClassName("DinamizeDivMessageAlert")[0];
+                    if (msgAlert)
+                        msgAlert.style.display = "none";
+
+                    var msgError = form.getElementsByClassName("DinamizeDivMessageError")[0];
+                    if (msgError)
+                        msgError.style.display = "none";
+
+                    // elemento deprecated, de landingPage
+                    var msgErrorDep = form.getElementsByClassName("divMessageError")[0];
+                    if (msgErrorDep)
+                        msgErrorDep.style.display = "none";
+
+                    var msgCaptcha = form.getElementsByClassName("DinamizeDivCaptchaMessage")[0];
+                    if (msgCaptcha)
+                        msgCaptcha.style.display = "none";
+                },
+                validateEmail: function (email) {
+                    var re = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                    return re.test(email);
+                },
+                prepareDate: function (date, format) {
+                    var newDate, time;
+                    format = format.substr(0, 10).replace("/", "").replace("/", "").replace("-", "").replace("-", "");
+                    time = date.substr(10, 15);
+
+                    if (format == "DDMMAAAA") {
+                        newDate = date[6] + date[7] + date[8] + date[9] + "-" + date[3] + date[4] + "-" + date[0] + date[1];
+                    } else if (format == "MMDDAAAA") {
+                        newDate = date[6] + date[7] + date[8] + date[9] + "-" + date[0] + date[1] + "-" + date[3] + date[4];
+                    } else if (format == "AAAAMMDD") {
+                        newDate = date[0] + date[1] + date[2] + date[3] + "-" + date[5] + date[6] + "-" + date[8] + date[9];
+                    }
+
+                    return newDate + time;
+                },
+                existDate: function (date, time) {
+                    if (time) {
+                        if (date.length != 16) {
+                            return false;
+                        }
+                    } else if (!time) {
+                        if (date.length != 10) {
+                            return false;
+                        }
+                        date += " 00:00";
+                    }
+
+                    var NEWDATE = new Date(date.replace("-", "/").replace("-", "/"));
+                    var strNewdate;
+
+                    var y = NEWDATE.getFullYear().toString();
+                    var m = (NEWDATE.getMonth() + 1).toString();
+                    var d = NEWDATE.getDate().toString();
+                    var h = NEWDATE.getHours().toString();
+                    var min = NEWDATE.getMinutes().toString();
+                    strNewdate = y + "-" + (m[1] ? m : "0" + m[0]) + "-" + (d[1] ? d : "0" + d[0]) + " " + (h[1] ? h : "0" + h[0]) + ":" + (min[1] ? min : "0" + min[0]);
+
+                    if (date != strNewdate) {
+                        return false;
+                    }
+
+                    return true;
+                },
+                addClass: function (classname, element) {
+                    var cn = element.className;
+                    if (cn.indexOf(classname) != -1) {
+                        return;
+                    }
+                    if (cn != "") {
+                        classname = " " + classname;
+                    }
+                    element.className = cn + classname;
+                },
+                removeClass: function (classname, element) {
+                    var cn = element.className;
+                    var rxp = new RegExp("\\s?\\b" + classname + "\\b", "g");
+                    cn = cn.replace(rxp, "");
+                    element.className = cn;
+                },
+                //funcao do google faz o serialize estilo JQuery
+                serialize: function (form) {
+                    if (!form || form.nodeName !== "FORM") {
+                        return
+                    }
+                    var i, j, q = [];
+                    for (i = form.elements.length - 1; i >= 0; i = i - 1) {
+                        if (form.elements[i].name === "") {
+                            continue
+                        }
+                        switch (form.elements[i].nodeName) {
+                            case"INPUT":
+                                switch (form.elements[i].type) {
+                                    case"text":
+                                    case"hidden":
+                                    case"password":
+                                    case"button":
+                                    case"reset":
+                                    case"submit":
+                                        q.push(form.elements[i].name + "=" + encodeURIComponent(form.elements[i].value));
+                                        break;
+                                    case"checkbox":
+                                    case"radio":
+                                        if (form.elements[i].checked) {
+                                            q.push(form.elements[i].name + "=" + encodeURIComponent(form.elements[i].value))
+                                        }
+                                        break;
+                                    case"file":
+                                        break
+                                }
+                                break;
+                            case"TEXTAREA":
+                                q.push(form.elements[i].name + "=" + encodeURIComponent(form.elements[i].value));
+                                break;
+                            case"SELECT":
+                                switch (form.elements[i].type) {
+                                    case"select-one":
+                                        q.push(form.elements[i].name + "=" + encodeURIComponent(form.elements[i].value));
+                                        break;
+                                    case"select-multiple":
+                                        for (j = form.elements[i].options.length - 1; j >= 0; j = j - 1) {
+                                            if (form.elements[i].options[j].selected) {
+                                                q.push(form.elements[i].name + "=" + encodeURIComponent(form.elements[i].options[j].value))
+                                            }
+                                        }
+                                        break
+                                }
+                                break;
+                            case"BUTTON":
+                                switch (form.elements[i].type) {
+                                    case"reset":
+                                    case"submit":
+                                    case"button":
+                                        q.push(form.elements[i].name + "=" + encodeURIComponent(form.elements[i].value));
+                                        break
+                                }
+                                break
+                        }
+                    }
+                    return q.join("&")
+                },
+            };
+        }
+
+        //
+        if (document.readyState === "complete") {
+            dinForms.onLoad();
+        } else {
+            if (window.attachEvent) {
+                window.attachEvent("load", dinForms.onLoad);
+            } else {
+                window.addEventListener("load", dinForms.onLoad);
+            }
+        }
+    </script>
+</head>
+
+<body class="program-page">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TF537K"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- loader image before page load starts -->
+<div class="se-pre-con"></div>
+<!-- loader image before page load ends -->
+
+<!-- main wrapper of the site starts -->
+<div class="wrapper">
+    <!-- ============== Header starts ============== -->
+    <header class="no-padding">
+        <div class="container">
+            <div class="row">
+                <!-- ============== Main navigation starts ============== -->
+                <div class="col-md-2"></div>
+                <div class="col-md-10 text-left">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse">
+                                <ul class="nav navbar-nav text-left pull-left">
+                                    <li class="padding-2 margin-left-5 activeView">
+                                        <a href="para-voce.html" class="whiteText"
+                                        >Para Você</a
+                                        >
+                                    </li>
+                                    <li class="padding-2 margin-left-5">
+                                        <a href="para-nutri.html" class="forTexts"
+                                        >Para Nutricionistas</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <!-- ============== Left logo block starts ============== -->
+                <div class="col-md-2">
+                    <figure class="img-figure-center">
+                        <a href="index.html"
+                        ><img
+                                class="img-responsive img-figure-vw"
+                                src="images/logo-escrito.png"
+                                alt="Nutrilight Logo"
+                        /></a>
+                    </figure>
+                </div>
+                <!-- ============== Left logo block ends ============== -->
+
+                <!-- ============== Main navigation starts ============== -->
+                <div class="col-md-5">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="collapse">
+                                <ul class="nav navbar-nav text-left pull-left">
+                                    <li>
+                                        <a href="#how-the-app-works" class="menu-text"
+                                        >Como funciona</a
+                                        >
+                                    </li>
+                                    <li><a class="menu-text">Blog</a></li>
+                                    <li>
+                                        <a href="#get-ebook" class="menu-text">E-book</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact-the-team" class="menu-text"
+                                        >Contato</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                </div>
+
+                <div class="col-md-5">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="collapse">
+                                <ul class="nav navbar-nav text-right pull-right">
+                                    <li class="active"><a class="menu-text" href="https://agendamento.nutrilight.fit"
+                                                          target="_blank">Entrar</a></li>
+                                    <li><a class="menu-text" href="https://agendamento.nutrilight.fit/cadastro"
+                                           target="_blank">Registre-se</a></li>
+                                    <li>
+                                        <a
+                                                href="https://agendamento.nutrilight.fit" target="_blank"
+                                                class="schedule text-center"
+                                        ><span>Marcar Consulta</span></a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                </div>
+                <!-- ============== Main navigation ends ============== -->
+            </div>
+            <div class="col-md-12 text-right">
+                <p class="contact-phone"><i class="fa fa-phone hvr-wobble-top"></i> (31) 99797-5540</p>
+            </div>
+        </div>
+    </header>
+    <!-- ============== Header ends ============== -->
+
+    <!-- ============== Banner starts ============== -->
+    <section class="banner home-banner home-banner1">
+        <div class="bannerwrap">
+            <div id="owl-demo">
+                <div class="main-banner">
+                    <div class="container">
+                        <div class="banner-text text-left">
+                            <h1 class="banner-title">Como funciona a Nutrilight?</h1>
+                            <div class="subtitle-text">
+                                <br/>
+                                Conectamos pacientes e nutricionistas de um jeito bem
+                                saudável! Com a Nutrilight, os pacientes ficam sempre
+                                motivados e as consultas mais leves e gostosas. Isso faz
+                                toda a diferença e não pesa no bolso.
+                            </div>
+                            <br/>
+                            <a href="#how-the-app-works" class="text-left how-it-works"
+                            >Saiba Mais</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============== Baner ends ============== -->
+
+    <main>
+
+        <!--WHATSAPP ICON BEGINS-->
+        <link
+                rel="stylesheet"
+                href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
         />
-        
-        <!-- Global site tag (gtag.js) - Google Analytics --> 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114468843-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+        <a href="https://wa.me/553197975540" class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float whatsappIcon"></i>
+        </a>
+        <!--WHATSAPP ICON ENDS-->
 
-          gtag('config', 'UA-114468843-1');
-        </script>
+        <!-- main content starts -->
+        <!-- ============== Features block starts ============== -->
+        <section class="block features-block" id="how-the-app-works">
+            <div class="container">
+                <div class="top-text text-center wow fadeInUp">
+                    A Nutrilight conta com os melhores Nutricionistas do Brasil para criar
+                    planos relevantes e definitivos para que você atinja seus objetivos!
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 features-item wow fadeInLeft">
+                        <div class="feature-item-wrap text-center">
+                            <figure>
+                                <a href="#"
+                                ><img
+                                        class="img-responsive"
+                                        src="images/verificado.png"
+                                        alt="Weigt loss icon"
+                                /></a>
+                            </figure>
+                            <h5><a href="#">Escolha seu objetivo</a></h5>
+                            <p>
+                                Selecione o objetivo que você pretende cumprir com a ajuda
+                                dos Nutricionistas profissionais da Nutrilight!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 features-item wow fadeInUp">
+                        <div class="feature-item-wrap text-center">
+                            <figure>
+                                <a href="#"
+                                ><img
+                                        class="img-responsive"
+                                        src="images/calendario.png"
+                                        alt="Low Colesterol Icon"
+                                /></a>
+                            </figure>
+                            <h5><a href="#">Marque sua consulta</a></h5>
+                            <p>
+                                Encontre o Nutricionista mais próximo de você e marque sua
+                                consulta para dar início ao seu objetivo!
+                            </p>
+                            <a href="https://agendamento.nutrilight.fit" target="_blank"
+                               class="btn hvr-wobble-horizontal"
+                            >Marcar Consulta</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 features-item wow fadeInRight">
+                        <div class="feature-item-wrap text-center">
+                            <figure>
+                                <a href="#"
+                                ><img
+                                        class="img-responsive"
+                                        src="images/grafico.png"
+                                        alt="Fitness & Performance Icon"
+                                /></a>
+                            </figure>
+                            <h5><a href="#">Acompanhe seus resultados</a></h5>
+                            <p>
+                                Acompanhe as mudanças e resultados e tenha contato direto
+                                com seu Nutricionista através do app Nutrilight!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============== Features block starts ============== -->
 
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+        <!-- ============== download app block starts ============== -->
+        <section class="download-app-block" id="download-the-app">
+            <div class="container">
+                <!-- right text starts -->
+                <div class="wow fadeInLeft download-app-text">
+                    <div class="download-app-wrap">
+                        <h1 class="text-lt text-sp">
+                            Pra te deixar bem motivado, tem o app.
+                        </h1>
+                        <br/>
+                        <p>
+                            Ele ajuda a planejar sua conduta nutricional, mostra o seu plano
+                            alimentar e resultados alcançados. Se quiser, você pode tirar
+                            dúvidas com o seu Nutricionista. E até receber um lembrete
+                            naquele aniversário bem na hora do parabéns! <br/>
+                            <br/>
+                            Baixe o App e marque sua consulta. #sejanutri
+                        </p>
+                        <br/>
+                        <div class="download-from">
+                            <a
+                            ><img
+                                    class="download-image"
+                                    src="images/em-breve-na-apple-store.png"
+                                    alt="App store"
+                            /></a>
+                            <a
+                            ><img
+                                    class="download-image"
+                                    src="images/em-breve-google-play.png"
+                                    alt="Google Play"
+                            /></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- right text ends -->
+                <!-- left image starts -->
+                <div class="wow fadeInRight left-mobile">
+                    <figure>
+                        <img
+                                src="images/peso-e-grafico.png"
+                                class="chart-image"
+                                alt="Mobile phone"
+                        />
+                    </figure>
+                </div>
+                <!-- left image ends -->
+            </div>
+        </section>
+        <!-- ============== download app block ends ============== -->
 
-		<style>
-			/******* loader image before page load ******/
-			.no-js #loader {
-				display: none;
-			}
-			.js #loader {
-				display: block;
-				position: absolute;
-				left: 100px;
-				top: 0;
-			}
-			.se-pre-con {
-				position: fixed;
-				left: 0px;
-				top: 0px;
-				width: 100%;
-				height: 100%;
-				z-index: 9999;
-				background: url(images/Preloader_4.gif) center no-repeat #fff;
-			}
-		</style>
-	</head>
-
-	<body class="program-page">
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TF537K"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-		<!-- loader image before page load starts -->
-		<div class="se-pre-con"></div>
-		<!-- loader image before page load ends -->
-
-		<!-- main wrapper of the site starts -->
-		<div class="wrapper">
-			<!-- ============== Header starts ============== -->
-			<header class="no-padding">
-				<div class="container">
-					<div class="row">
-						<!-- ============== Main navigation starts ============== -->
-						<div class="col-md-2"></div>
-						<div class="col-md-10 text-left">
-							<nav class="navbar navbar-default">
-								<div class="container-fluid">
-									<!-- Brand and toggle get grouped for better mobile display -->
-									<div class="navbar-header">
-										<button type="button" class="navbar-toggle">
-											<span class="sr-only">Toggle navigation</span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-										</button>
-									</div>
-
-									<!-- Collect the nav links, forms, and other content for toggling -->
-									<div class="collapse">
-										<ul class="nav navbar-nav text-left pull-left">
-											<li class="padding-2 margin-left-5 activeView">
-												<a href="para-voce.html" class="whiteText"
-													>Para Você</a
-												>
-											</li>
-											<li class="padding-2 margin-left-5">
-												<a href="para-nutri.html" class="forTexts"
-													>Para Nutricionistas</a
-												>
-											</li>
-										</ul>
-									</div>
-									<!-- /.navbar-collapse -->
-								</div>
-								<!-- /.container-fluid -->
-							</nav>
-						</div>
-					</div>
-					<div class="row">
-						<!-- ============== Left logo block starts ============== -->
-						<div class="col-md-2">
-							<figure class="img-figure-center">
-								<a href="index.html"
-									><img
-										class="img-responsive img-figure-vw"
-										src="images/logo-escrito.png"
-										alt="Nutrilight Logo"
-								/></a>
-							</figure>
-						</div>
-						<!-- ============== Left logo block ends ============== -->
-
-						<!-- ============== Main navigation starts ============== -->
-						<div class="col-md-5">
-							<nav class="navbar navbar-default">
-								<div class="container-fluid">
-									<!-- Brand and toggle get grouped for better mobile display -->
-									<div class="collapse">
-										<ul class="nav navbar-nav text-left pull-left">
-											<li>
-												<a href="#how-the-app-works" class="menu-text"
-													>Como funciona</a
-												>
-											</li>
-											<li><a class="menu-text">Blog</a></li>
-											<li>
-												<a href="#get-ebook" class="menu-text">E-book</a>
-											</li>
-											<li>
-												<a href="#contact-the-team" class="menu-text"
-													>Contato</a
-												>
-											</li>
-										</ul>
-									</div>
-									<!-- /.navbar-collapse -->
-								</div>
-								<!-- /.container-fluid -->
-							</nav>
-						</div>
-
-						<div class="col-md-5">
-							<nav class="navbar navbar-default">
-								<div class="container-fluid">
-									<!-- Brand and toggle get grouped for better mobile display -->
-									<div class="collapse">
-										<ul class="nav navbar-nav text-right pull-right">
-											<li class="active"><a class="menu-text" href="https://agendamento.nutrilight.fit" target="_blank">Entrar</a></li>
-											<li><a class="menu-text" href="https://agendamento.nutrilight.fit/cadastro" target="_blank">Registre-se</a></li>
-											<li>
-												<a
-													href="https://agendamento.nutrilight.fit" target="_blank"
-													class="schedule text-center"
-													><span>Marcar Consulta</span></a
-												>
-											</li>
-										</ul>
-									</div>
-									<!-- /.navbar-collapse -->
-								</div>
-								<!-- /.container-fluid -->
-							</nav>
-						</div>
-						<!-- ============== Main navigation ends ============== -->
-          </div>
-          <div class="col-md-12 text-right">
-            <p class="contact-phone"><i class="fa fa-phone hvr-wobble-top"></i> (31) 99797-5540</p>
-          </div>
-				</div>
-			</header>
-			<!-- ============== Header ends ============== -->
-
-			<!-- ============== Banner starts ============== -->
-			<section class="banner home-banner home-banner1">
-				<div class="bannerwrap">
-					<div id="owl-demo">
-						<div class="main-banner">
-							<div class="container">
-								<div class="banner-text text-left">
-									<h1 class="banner-title">Como funciona a Nutrilight?</h1>
-									<div class="subtitle-text">
-										<br />
-										Conectamos pacientes e nutricionistas de um jeito bem
-										saudável! Com a Nutrilight, os pacientes ficam sempre
-										motivados e as consultas mais leves e gostosas. Isso faz
-										toda a diferença e não pesa no bolso.
-									</div>
-									<br />
-									<a href="#how-the-app-works" class="text-left how-it-works"
-										>Saiba Mais</a
-									>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- ============== Baner ends ============== -->
-
-			<main>
-
-				<!--WHATSAPP ICON BEGINS-->
-				<link
-					rel="stylesheet"
-					href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-				/>
-				<a href="https://wa.me/553197975540" class="float" target="_blank">
-					<i class="fa fa-whatsapp my-float whatsappIcon"></i>
-				</a>
-				<!--WHATSAPP ICON ENDS-->
-
-				<!-- main content starts -->
-				<!-- ============== Features block starts ============== -->
-				<section class="block features-block" id="how-the-app-works">
-					<div class="container">
-						<div class="top-text text-center wow fadeInUp">
-							A Nutrilight conta com os melhores Nutricionistas do Brasil para criar
-							planos relevantes e definitivos para que você atinja seus objetivos!
-						</div>
-						<div class="row">
-							<div class="col-xs-12 col-sm-4 features-item wow fadeInLeft">
-								<div class="feature-item-wrap text-center">
-									<figure>
-										<a href="#"
-											><img
-												class="img-responsive"
-												src="images/verificado.png"
-												alt="Weigt loss icon"
-										/></a>
-									</figure>
-									<h5><a href="#">Escolha seu objetivo</a></h5>
-									<p>
-										Selecione o objetivo que você pretende cumprir com a ajuda
-										dos Nutricionistas profissionais da Nutrilight!
-									</p>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-4 features-item wow fadeInUp">
-								<div class="feature-item-wrap text-center">
-									<figure>
-										<a href="#"
-											><img
-												class="img-responsive"
-												src="images/calendario.png"
-												alt="Low Colesterol Icon"
-										/></a>
-									</figure>
-									<h5><a href="#">Marque sua consulta</a></h5>
-									<p>
-										Encontre o Nutricionista mais próximo de você e marque sua
-										consulta para dar início ao seu objetivo!
-									</p>
-									<a href="https://agendamento.nutrilight.fit" target="_blank" class="btn hvr-wobble-horizontal"
-										>Marcar Consulta</a
-									>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-4 features-item wow fadeInRight">
-								<div class="feature-item-wrap text-center">
-									<figure>
-										<a href="#"
-											><img
-												class="img-responsive"
-												src="images/grafico.png"
-												alt="Fitness & Performance Icon"
-										/></a>
-									</figure>
-									<h5><a href="#">Acompanhe seus resultados</a></h5>
-									<p>
-										Acompanhe as mudanças e resultados e tenha contato direto
-										com seu Nutricionista através do app Nutrilight!
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- ============== Features block starts ============== -->
-
-				<!-- ============== download app block starts ============== -->
-				<section class="download-app-block" id="download-the-app">
-					<div class="container">
-						<!-- right text starts -->
-						<div class="wow fadeInLeft download-app-text">
-							<div class="download-app-wrap">
-								<h1 class="text-lt text-sp">
-									Pra te deixar bem motivado, tem o app.
-								</h1>
-								<br />
-								<p>
-									Ele ajuda a planejar sua conduta nutricional, mostra o seu plano
-									alimentar e resultados alcançados. Se quiser, você pode tirar
-									dúvidas com o seu Nutricionista. E até receber um lembrete
-									naquele aniversário bem na hora do parabéns! <br />
-									<br />
-									Baixe o App e marque sua consulta. #sejanutri
-								</p>
-								<br />
-								<div class="download-from">
-									<a
-										><img
-											class="download-image"
-											src="images/em-breve-na-apple-store.png"
-											alt="App store"
-									/></a>
-									<a
-										><img
-											class="download-image"
-											src="images/em-breve-google-play.png"
-											alt="Google Play"
-									/></a>
-								</div>
-							</div>
-						</div>
-						<!-- right text ends -->
-						<!-- left image starts -->
-						<div class="wow fadeInRight left-mobile">
-							<figure>
-								<img
-									src="images/peso-e-grafico.png"
-									class="chart-image"
-									alt="Mobile phone"
-								/>
-							</figure>
-						</div>
-						<!-- left image ends -->
-					</div>
-				</section>
-				<!-- ============== download app block ends ============== -->
-
-				<!-- ============== Contact form block starts ============== -->
-				<section class="secondary-banner contact-form" id="get-ebook">
-                        <div class="container">
-                            <br>
-                            <h8 class="wow fadeInUp">CONQUISTE SEUS OBJETIVOS COM A NUTRILIGHT!</h8>
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-7 contact-left-text wow fadeInLeft">
-                                    <h10>
-                                        <br /><br />
-                                        Tenha acesso completo ao novo e-book de receitas da
-                                        Nutrilight! <br />
-                                        <br />
-                                    </h10>
-                                    <h9>
-                                        Criado por nutricionistas profissionais, nosso e-book é
-                                        GRATUITO <br />
-                                        e visa ajudar você a conquistar seus objetivos! <br />
-                                        Para receber o e-book, preencha os campos ao lado e comece
-                                        já <br />
-                                        a colocar suas receitas em prática!
-                                    </h9>
+        <!-- ============== Contact form block starts ============== -->
+        <section class="secondary-banner-nutri contact-form" id="get-ebook">
+            <div class="container">
+                <br>
+                <h8 class="wow fadeInUp">CONQUISTE SEUS OBJETIVOS COM A NUTRILIGHT!</h8>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-7 contact-left-text wow fadeInLeft">
+                        <h10>
+                            <br/><br/>
+                            Tenha acesso completo ao novo e-book de receitas da
+                            Nutrilight! <br/>
+                            <br/>
+                        </h10>
+                        <h9>
+                            Criado por nutricionistas profissionais, nosso e-book é
+                            GRATUITO <br/>
+                            e visa ajudar você a conquistar seus objetivos! <br/>
+                            Para receber o e-book, preencha os campos ao lado e comece
+                            já <br/>
+                            a colocar suas receitas em prática!
+                        </h9>
+                    </div>
+                    <div
+                            class="col-xs-12 col-sm-5 contact-right-form wow fadeInRight contact-section"
+                    >
+                        <fieldset>
+                        <form version="2.0" class="formIntegration formIntegration2 style1" accept-charset="UTF-8"
+                              method="post" onsubmit="return dinForms.ValidateForm(this)"
+                              action="https://receiver.emkt.dinamize.com/in/323778/1/2296b/0"
+                              target="DinamizeIframeFormIntegration">
+                            <input type="hidden" name="update_mode" value="AS"/>
+                            <input type="hidden" name="form-code" value="4"/>
+                            <input type="hidden" name="isMsg" value="true"/>
+                            <div class="DinamizeDivMessageAlert"></div>
+                            <div class="DinamizeDivMessageSuccess">Seu e-mail foi cadastrado com sucesso!<br />Voc&ecirc; receber&aacute;
+                                seu E-Book por e-mail. Aproveite!</div>
+                            <div class="DinamizeDivMessageError"></div>
+                            <input type="hidden" name="text-confirmation"
+                                   value="U2V1IGUtbWFpbCBmb2kgY2FkYXN0cmFkbyBjb20gc3VjZXNzbyE8YnIgLz5Wb2MmZWNpcmM7IHJlY2ViZXImYWFjdXRlOyBzZXUgRS1Cb29rIHBvciBlLW1haWwuIEFwcm92ZWl0ZSE="/>
+                            <input type="hidden" name="text-error" value=""/>
+                            <input type="hidden" name="text-alert" value=""/><input type="hidden" name="cmp4"
+                                                                                    value="E-Book Paciente|Lead|Paciente"/>
+                            <input type="hidden" name="phase-change" value="off"/>>
+                           <input type="text" name="cmp2" placeholder="Nome" format=""
+                                                                  class="type_VC field-required " maxlength="80" />
+                           <br/>
+                            <br/>
+                            <input type="text" name="cmp1" placeholder="Email" format=""
+                                   class="type_EMAIL field-required " maxlength="80" />
+                          <br/>
+                            <br/>
+                            <div class="div_PHN hidden_DDI">
+                                <div class="div_PHN_DDI">
+                                    <input type="text" name="cmp11_DDI" hd-name="cmp11" maxlength="5" value="55"
+                                           class="type_PHN_DDI " />
                                 </div>
+                                <div class="div_PHN_NUM">
+                                    <input type="text" name="cmp11_NUM" hd-name="cmp11" maxlength="20"
+                                           placeholder="(00) 0000-0000" class="type_PHN_NUM " />
+                                </div>
+                                <input type="hidden" name="cmp11" />
+                            </div>
+                            <br/>
+                                <div class="select text-lt text-sp">
+
+                                    <select name="cmp14" class="type_LVU ">
+                                        <option value="">Selecione Sua Cidade</option>
+                                        <option value="Anapolis">Anapolis</option>
+                                        <option value="Araçuaí">Araçuaí</option>
+                                        <option value="Araxá">Araxá</option>
+                                        <option value="Bahia">Bahia</option>
+                                        <option value="Batatais">Batatais</option>
+                                        <option value="Belo Horizonte">Belo Horizonte</option>
+                                        <option value="Cabo Frio">Cabo Frio</option>
+                                        <option value="Campinas">Campinas</option>
+                                        <option value="Contagem">Contagem</option>
+                                        <option value="Curitiba">Curitiba</option>
+                                        <option value="Feira de Santana">Feira de Santana</option>
+                                        <option value="Fortaleza">Fortaleza</option>
+                                        <option value="Goiânia">Goiânia</option>
+                                        <option value="Itaipé">Itaipé</option>
+                                        <option value="José Gonçalves de Minas">José Gonçalves de Minas</option>
+                                        <option value="Juiz de Fora">Juiz de Fora</option>
+                                        <option value="Jundiaí">Jundiaí</option>
+                                        <option value="Lagoa Santa">Lagoa Santa</option>
+                                        <option value="Malacheta">Malacheta</option>
+                                        <option value="Osasco">Osasco</option>
+                                        <option value="Ouro Preto">Ouro Preto</option>
+                                        <option value="Ribeirão Preto">Ribeirão Preto</option>
+                                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                                        <option value="Salvador">Salvador</option>
+                                        <option value="Santa Luzia">Santa Luzia</option>
+                                        <option value="São Paulo">São Paulo</option>
+                                        <option value="Taubaté">Taubaté</option>
+                                        <option value="Teresina">Teresina</option>
+                                        <option value="Vila Velha">Vila Velha</option>
+                                    </select></div>
+                            <br/>
+                                <div class="select text-lt text-sp">
+                                    <select name="cmp13" class="type_LVU ">
+                                        <option value="">Selecione Seu Estado</option>
+                                        <option value="B">B</option>
+                                        <option value="BA">BA</option>
+                                        <option value="CA">CA</option>
+                                        <option value="CE">CE</option>
+                                        <option value="DC">DC</option>
+                                        <option value="ES">ES</option>
+                                        <option value="FL">FL</option>
+                                        <option value="GO">GO</option>
+                                        <option value="MG">MG</option>
+                                        <option value="NC">NC</option>
+                                        <option value="NH">NH</option>
+                                        <option value="NJ">NJ</option>
+                                        <option value="NY">NY</option>
+                                        <option value="PE">PE</option>
+                                        <option value="PI">PI</option>
+                                        <option value="PR">PR</option>
+                                        <option value="RJ">RJ</option>
+                                        <option value="SP">SP</option>
+                                    </select>
+                                </div>
+                            <br/>
+                            <input type="submit" value="Cadastre-se" original-value="Cadastre-se" class="dinSubmit" />
+                        </form>
+                            </fieldset>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============== Contact form block ends ============== -->
+
+        <!-- ============== Support starts ============== -->
+
+        <div class="block support-tab">
+            <div class="container">
+                <ul class="nav nav-tabs row" role="tablist">
+                    <li
+                            class="active col-xs-12 col-sm-3 wow fadeInLeft"
+                            data-wow-delay="0.0s"
+                    >
+                        <a
+                                href="#health-doc"
+                                class="doc hvr-wobble-top"
+                                role="tab"
+                                data-toggle="tab"
+                        >
+                            <i></i> <span>Sobre as Consultas</span>
+                        </a>
+                    </li>
+                    <!-- ask health ends-->
+
+                    <li class="col-xs-12 col-sm-3  wow fadeInUp" data-wow-delay="0.1s">
+                        <a
+                                href="#deliv-dep"
+                                class="delivery hvr-wobble-top main-svg-color"
+                                role="tab"
+                                data-toggle="tab"
+                        >
+                            <i></i> <span>Sobre o Aplicativo</span>
+                        </a>
+                    </li>
+                    <!-- delivery department ends-->
+
+                    <li class="col-xs-12 col-sm-3  wow fadeInDown" data-wow-delay="0.2s">
+                        <a
+                                href="#business"
+                                class="business hvr-wobble-top"
+                                role="tab"
+                                data-toggle="tab"
+                        >
+                            <i></i> <span>Sobre os Nutricionistas</span>
+                        </a>
+                    </li>
+                    <!-- business offers ends-->
+
+                    <li class="col-xs-12 col-sm-3  wow fadeInRight" data-wow-delay="0.3s">
+                        <a
+                                href="#tech-sprt"
+                                class="tech hvr-wobble-top"
+                                role="tab"
+                                data-toggle="tab"
+                        >
+                            <i></i> <span>Sobre os Pagamentos</span>
+                        </a>
+                    </li>
+                    <!-- technical support ends-->
+                </ul>
+            </div>
+
+            <div class="tab-content-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                            <div class="tab-content">
                                 <div
-                                    class="col-xs-12 col-sm-5 contact-right-form wow fadeInRight contact-section"
+                                        role="tabpanel"
+                                        class="tab-pane active"
+                                        id="health-doc"
                                 >
-                                <form
-                                                        action="https://formspree.io/contato@nutrilight.fit"
-                                                        method="POST"
-                                                        id="ebookForm"
-                                                    >
-                                        <fieldset>
-                                            <input type="text" placeholder="Nome" name="ebookName" id="ebookName" />
-                                        </fieldset>
-                                        <fieldset>
-                                            <input type="text" placeholder="Email" name="ebookEmail" id="ebookEmail"  />
-                                        </fieldset>
-                                        <fieldset>
-                                            <input type="text" placeholder="Telefone" name="ebookPhone" id="ebookPhone"  />
-                                        </fieldset>
-                                                    <button
-                                                    type="button"
-                                                    class="btn"
-                                                    onclick="validateFormToEbook()">RECEBER E-BOOK
-                                                    </button>	
-                                                    </form>
+                                    <ul class="acdn accordion">
+                                        <!--singel list-->
+                                        <li class="wow fadeInLeft">
+                                            <div class="link">
+                                                Como é o procedimento das consultas?
+                                                <i class="fa fa-chevron-down"></i>
+                                            </div>
+
+                                            <div class="detail">
+                                                <p>
+                                                    Na primeira consulta o nutricionista realiza a avaliação.
+                                                </p>
+
+                                                <p>
+                                                    A partir da primeira avaliação, o nutricionista analisa
+                                                    seu objetivo e prepara o plano de dietas e exercícios.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <!--singel list ends-->
+
+                                        <!--singel list-->
+                                        <li class="wow fadeInLeft">
+                                            <div class="link">
+                                                Qual a frequência das consultas? <i class="fa fa-chevron-down"></i>
+                                            </div>
+
+                                            <div class="detail">
+                                                <p>
+                                                    As consultas são feitas semanalmente para que você
+                                                    atinja seus objetivos de forma efetiva!
+                                                </p>
+
+                                            </div>
+                                        </li>
+                                        <!--singel list ends-->
+                                    </ul>
                                 </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- ============== Contact form block ends ============== -->
+                                <!-- ask health ends-->
 
-				<!-- ============== Support starts ============== -->
+                                <div role="tabpanel" class="tab-pane" id="deliv-dep">
+                                    <ul class="acdn accordion">
+                                        <!--singel list-->
+                                        <li class="wow fadeInLeft">
+                                            <div class="link">
+                                                Marcação de consultas online
+                                                <i class="fa fa-chevron-down"></i>
+                                            </div>
 
-				<div class="block support-tab">
-					<div class="container">
-						<ul class="nav nav-tabs row" role="tablist">
-							<li
-								class="active col-xs-12 col-sm-3 wow fadeInLeft"
-								data-wow-delay="0.0s"
-							>
-								<a
-									href="#health-doc"
-									class="doc hvr-wobble-top"
-									role="tab"
-									data-toggle="tab"
-								>
-									<i></i> <span>Sobre as Consultas</span>
-								</a>
-							</li>
-							<!-- ask health ends-->
+                                            <div class="detail">
+                                                <p>
+                                                    As consultas são marcadas pelas plataformas digitais, o site
+                                                    ou aplicativo Nutrilight.
 
-							<li class="col-xs-12 col-sm-3  wow fadeInUp" data-wow-delay="0.1s">
-								<a
-									href="#deliv-dep"
-									class="delivery hvr-wobble-top main-svg-color"
-									role="tab"
-									data-toggle="tab"
-								>
-									<i></i> <span>Sobre o Aplicativo</span>
-								</a>
-							</li>
-							<!-- delivery department ends-->
+                                                </p>
 
-							<li class="col-xs-12 col-sm-3  wow fadeInDown" data-wow-delay="0.2s">
-								<a
-									href="#business"
-									class="business hvr-wobble-top"
-									role="tab"
-									data-toggle="tab"
-								>
-									<i></i> <span>Sobre os Nutricionistas</span>
-								</a>
-							</li>
-							<!-- business offers ends-->
+                                            </div>
+                                        </li>
+                                        <!--singel list ends-->
 
-							<li class="col-xs-12 col-sm-3  wow fadeInRight" data-wow-delay="0.3s">
-								<a
-									href="#tech-sprt"
-									class="tech hvr-wobble-top"
-									role="tab"
-									data-toggle="tab"
-								>
-									<i></i> <span>Sobre os Pagamentos</span>
-								</a>
-							</li>
-							<!-- technical support ends-->
-						</ul>
-					</div>
+                                        <!--singel list-->
+                                        <li class="wow fadeInLeft">
+                                            <div class="link">
+                                                Acompanhamento da sua evolução
+                                                <i class="fa fa-chevron-down"></i>
+                                            </div>
 
-					<div class="tab-content-block">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-									<div class="tab-content">
-										<div
-											role="tabpanel"
-											class="tab-pane active"
-											id="health-doc"
-										>
-											<ul class="acdn accordion">
-												<!--singel list-->
-												<li class="wow fadeInLeft">
-													<div class="link">
-														Como é o procedimento das consultas?
-														<i class="fa fa-chevron-down"></i>
-													</div>
+                                            <div class="detail">
+                                                <p>
+                                                    Todo o acompanhamento é feito através do aplicativo
+                                                    Nutrilight.
+                                                </p>
 
-													<div class="detail">
-														<p>
-															Na primeira consulta o nutricionista realiza a avaliação.
-														</p>
+                                                <p>
+                                                    Através do app Nutrilight, é possível visualizar as dietas e
+                                                    receitas criadas pelo seu nutricionista.
+                                                    Além disso, você confere as suas medidas, seu peso e outras
+                                                    informações para acompanhar sua evolução.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <!--singel list ends-->
 
-														<p>
-                                                            A partir da primeira avaliação, o nutricionista analisa 
-                                                            seu objetivo e prepara o plano de dietas e exercícios.
-														</p>
-													</div>
-												</li>
-												<!--singel list ends-->
+                                        <!--singel list-->
+                                        <li class="wow fadeInLeft">
+                                            <div class="link">
+                                                Conexão com outros membros
+                                                <i class="fa fa-chevron-down"></i>
+                                            </div>
 
-												<!--singel list-->
-												<li class="wow fadeInLeft">
-													<div class="link">
-														Qual a frequência das consultas? <i class="fa fa-chevron-down"></i>
-													</div>
+                                            <div class="detail">
+                                                <p>
+                                                    Tenha contato com outros membros Nutrilight.
+                                                </p>
 
-													<div class="detail">
-														<p>
-                                                            As consultas são feitas semanalmente para que você 
-                                                            atinja seus objetivos de forma efetiva!
-														</p>
+                                                <p>
+                                                    A partir do app Nutrilight, é possível ter contato direto
+                                                    com outros usuários do aplicativo. Assim você pode
+                                                    acompanhar os resultados de amigos e familiares que também
+                                                    utilizam a Nutrilight.
+                                                    Além disso, você ainda pode conversar com outros pacientes,
+                                                    analisando as avaliações dos nutricionistas, recebendo receitas
+                                                    novas e compartilhando suas mudanças!
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <!--singel list ends-->
 
-													</div>
-												</li>
-												<!--singel list ends-->
-											</ul>
-										</div>
-										<!-- ask health ends-->
+                                        <!--singel list-->
+                                        <li class="wow fadeInLeft">
+                                            <div class="link">
+                                                Atividades físicas e Receitas
+                                                <i class="fa fa-chevron-down"></i>
+                                            </div>
 
-										<div role="tabpanel" class="tab-pane" id="deliv-dep">
-											<ul class="acdn accordion">
-												<!--singel list-->
-												<li class="wow fadeInLeft">
-													<div class="link">
-														Marcação de consultas online
-														<i class="fa fa-chevron-down"></i>
-													</div>
+                                            <div class="detail">
+                                                <p>
+                                                    Tenha acesso ao seu plano de atividades e receitas.
+                                                </p>
 
-													<div class="detail">
-														<p>
-                                                            As consultas são marcadas pelas plataformas digitais, o site 
-                                                            ou aplicativo Nutrilight.
-                                                    
-														</p>
+                                                <p>
+                                                    Através do aplicativo, você confere as atividades físicas
+                                                    e receitas que seu nutricionista definiu para seu plano.
+                                                    Além disso, você ainda tem acesso a vídeos motivacionais
+                                                    diários de nutricionistas.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <!--singel list ends-->
+                                    </ul>
+                                </div>
+                                <!-- delivery department ends-->
 
-													</div>
-												</li>
-												<!--singel list ends-->
+                                <div role="tabpanel" class="tab-pane" id="business">
+                                    <ul class="acdn accordion">
+                                        <!--singel list-->
+                                        <li class="wow fadeInLeft">
+                                            <div class="link">
+                                                Sobre as Nutricionistas
+                                                <i class="fa fa-chevron-down"></i>
+                                            </div>
 
-												<!--singel list-->
-												<li class="wow fadeInLeft">
-													<div class="link">
-														Acompanhamento da sua evolução
-														<i class="fa fa-chevron-down"></i>
-													</div>
+                                            <div class="detail">
+                                                <p>
+                                                    Todas são avaliadas através de um pré cadastro do currículo;
+                                                </p>
 
-													<div class="detail">
-														<p>
-                                                            Todo o acompanhamento é feito através do aplicativo 
-                                                            Nutrilight.
-														</p>
+                                                <p>
+                                                    As nutricionistas Nutrilight são profissionais graduadas que
+                                                    estão frequentemente estudando e evoluindo para tratar o cliente da
+                                                    melhor maneira possível.
 
-														<p>
-                                                            Através do app Nutrilight, é possível visualizar as dietas e 
-                                                            receitas criadas pelo seu nutricionista.
-                                                            Além disso, você confere as suas medidas, seu peso e outras
-                                                            informações para acompanhar sua evolução.
-														</p>
-													</div>
-												</li>
-												<!--singel list ends-->
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <!--singel list ends-->
 
-												<!--singel list-->
-												<li class="wow fadeInLeft">
-													<div class="link">
-														Conexão com outros membros
-														<i class="fa fa-chevron-down"></i>
-													</div>
+                                        <!--singel list-->
+                                        <li class="wow fadeInLeft">
+                                            <div class="link">
+                                                Avaliações dos Nutricionistas <i class="fa fa-chevron-down"></i>
+                                            </div>
 
-													<div class="detail">
-														<p>
-															Tenha contato com outros membros Nutrilight.
-														</p>
+                                            <div class="detail">
+                                                <p>
+                                                    As avaliações são feitas pelos pacientes.
+                                                </p>
 
-														<p>
-                                                            A partir do app Nutrilight, é possível ter contato direto
-                                                            com outros usuários do aplicativo. Assim você pode 
-                                                            acompanhar os resultados de amigos e familiares que também 
-                                                            utilizam a Nutrilight.
-                                                            Além disso, você ainda pode conversar com outros pacientes, 
-                                                            analisando as avaliações dos nutricionistas, recebendo receitas 
-                                                            novas e compartilhando suas mudanças!
-														</p>
-													</div>
-												</li>
-												<!--singel list ends-->
-
-												<!--singel list-->
-												<li class="wow fadeInLeft">
-													<div class="link">
-														Atividades físicas e Receitas
-														<i class="fa fa-chevron-down"></i>
-													</div>
-
-													<div class="detail">
-														<p>
-															Tenha acesso ao seu plano de atividades e receitas.
-														</p>
-
-														<p>
-                                                            Através do aplicativo, você confere as atividades físicas 
-                                                            e receitas que seu nutricionista definiu para seu plano.
-                                                            Além disso, você ainda tem acesso a vídeos motivacionais 
-                                                            diários de nutricionistas.
-														</p>
-													</div>
-												</li>
-												<!--singel list ends-->
-											</ul>
-										</div>
-										<!-- delivery department ends-->
-
-										<div role="tabpanel" class="tab-pane" id="business">
-											<ul class="acdn accordion">
-												<!--singel list-->
-												<li class="wow fadeInLeft">
-													<div class="link">
-														Sobre as Nutricionistas
-														<i class="fa fa-chevron-down"></i>
-                                                    </div>
-                                                    
-													<div class="detail">
-														<p>
-                                                                Todas são avaliadas através de um pré cadastro do currículo;
-														</p>
-
-														<p>
-                                                                As nutricionistas Nutrilight são profissionais graduadas que 
-                                                                estão frequentemente estudando e evoluindo para tratar o cliente da 
-                                                                melhor maneira possível.
-                                                                
-														</p>
-													</div>
-												</li>
-												<!--singel list ends-->
-
-												<!--singel list-->
-												<li class="wow fadeInLeft">
-													<div class="link">
-													Avaliações dos Nutricionistas	<i class="fa fa-chevron-down"></i>
-													</div>
-
-													<div class="detail">
-														<p>
-                                                              As avaliações são feitas pelos pacientes.  
-														</p>
-
-														<p>
+                                                <p>
                                                     Após cada consulta você pode avaliar sua nutricionista.
-                                                    Com isso, os pacientes podem escolher suas 
-                                                    nutricionistas com base nas avaliações e opiniões de reais usuários da Nutrilight.													</p>
-													</div>
-												</li>
-												<!--singel list ends-->
+                                                    Com isso, os pacientes podem escolher suas
+                                                    nutricionistas com base nas avaliações e opiniões de reais usuários
+                                                    da Nutrilight. </p>
+                                            </div>
+                                        </li>
+                                        <!--singel list ends-->
 
-											</ul>
-										</div>
-										<!-- business offers ends-->
+                                    </ul>
+                                </div>
+                                <!-- business offers ends-->
 
-										<div role="tabpanel" class="tab-pane" id="tech-sprt">
-											<ul class="acdn accordion">
-												<!--singel list-->
-												<li class="wow fadeInLeft">
-													<div class="link">
-														Como são feitos os pagamentos?
-														<i class="fa fa-chevron-down"></i>
-													</div>
+                                <div role="tabpanel" class="tab-pane" id="tech-sprt">
+                                    <ul class="acdn accordion">
+                                        <!--singel list-->
+                                        <li class="wow fadeInLeft">
+                                            <div class="link">
+                                                Como são feitos os pagamentos?
+                                                <i class="fa fa-chevron-down"></i>
+                                            </div>
 
-													<div class="detail">
-														<p>
-                                                            Os pagamentos são feitos através do aplicativo, sendo 
-                                                            possível selecionar planos mensais ou pagamentos avulsos.
-														</p>
+                                            <div class="detail">
+                                                <p>
+                                                    Os pagamentos são feitos através do aplicativo, sendo
+                                                    possível selecionar planos mensais ou pagamentos avulsos.
+                                                </p>
 
-													</div>
-												</li>
-												<!--singel list ends-->
-											</ul>
-										</div>
-										<!-- technical support ends-->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--tab block ends-->
+                                            </div>
+                                        </li>
+                                        <!--singel list ends-->
+                                    </ul>
+                                </div>
+                                <!-- technical support ends-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--tab block ends-->
 
-				<!--sucess sotry-->
-				<div class="block sucess-story">
-						<div>
-							<ul class="sucess-slide">
-								<!--single slide -->
-								<li>
-										<div class="row">
-											<div class="row text-center testimonial-wrap">
-													<div class="col-xs-12 col-sm-5 testimonial-box-wrap">
-															<div class="text-center top-text-header">
-																	<h4 class="text-uppercase text-sp text-lt h4-padding text-center padding-top-5">
-																		O que dizem sobre a Nutrilight
-																	</h4>
-																
-															</div>
-															<br />
-															<br />
-															<div class="text-center testimonial-box">
-																<figure>
-																	<img
-																		src="images/diego.jpg"
-																		alt="Diego Alves"
-																	/>
-																</figure>
-																<h6>Diêgo Alves</h6>
-																<p>
-																		“Estou na Nutrilight ha 10 meses, neste período eu já eliminei 36kg de forma saudável, o que elevou meu auto estima me garantindo qualidade de vida, por isto, eu recomendo a Nutrilight”
-																</p>
-															</div>
-														</div>
-												<div class="col-xs-12 col-sm-5 testimonial-box-wrap">
-													<div class="text-center testimonial-box">
-														<figure>
-															<img
-																src="images/adelaide.jpg"
-																alt="Adelaide Silva"
-															/>
-														</figure>
-														<h6>Adelaide Silva</h6>
-														<p>
-															“Em 9 meses eu consegui eliminar 35kg que era o meu objetivo..... pra mim, na verdade foi um aprendizado. E eu estou muito feliz com o resultado que a Nutrilight me proporcionou.”
-														</p>
-													</div>
-												</div>
-												<br>
-												<br>
-											</div>
-										</div>
-									</li>
+        <!--sucess sotry-->
+        <div class="block sucess-story">
+            <div>
+                <ul class="sucess-slide">
+                    <!--single slide -->
+                    <li>
+                        <div class="row">
+                            <div class="row text-center testimonial-wrap">
+                                <div class="col-xs-12 col-sm-5 testimonial-box-wrap">
+                                    <div class="text-center top-text-header">
+                                        <h4 class="text-uppercase text-sp text-lt h4-padding text-center padding-top-5">
+                                            O que dizem sobre a Nutrilight
+                                        </h4>
 
-								<li>
-									<div class="row">
-										<div class="row text-center testimonial-wrap">
-											<div class="col-xs-12 col-sm-5 testimonial-box-wrap">
-												<div class="text-center top-text-header">
-														<h4 class="text-uppercase text-sp text-lt h4-padding text-center padding-top-5">
-															O que dizem sobre a Nutrilight
-														</h4>
-													
-												</div>
-												<br />
-												<br />
-												<div class="text-center testimonial-box">
-													<figure>
-														<img
-															src="images/evanete.jpg"
-															alt="Evanete Miranda"
-														/>
-													</figure>
-													<h6>Evanete Miranda</h6>
-													<p>
-															“Consegui eliminar 33kg em 9 meses com a Nutrilight, tô muito, muito feliz. Minha auto estima está... nossa, demais!”
-													</p>
-												</div>
-											</div>
-											<div class="col-xs-12 col-sm-5 testimonial-box-wrap">
-												<div class="text-center testimonial-box">
-													<figure>
-														<img
-															src="images/marizia.jpg"
-															alt="Mariza Teixeira"
-														/>
-													</figure>
-													<h6>Mariza Teixeira</h6>
-													<p>
-															“Faço parte da família Nutrilight há 3 anos, consegui perder 18kg em 10 meses.... vestia um manequim de 50, hoje visto 42 e ao todo perdi 26kg....coisas que eu não conseguia fazer, hoje faço com facilidade...... hoje sou muito feliz.”
-													</p>
-												</div>
-											</div>
-											<br>
-											<br>
-										</div>
-									</div>
-								</li>
-								<!--single slide ends-->
-
-								<li>
-										<div class="row">
-											<div class="row text-center testimonial-wrap">
-												<div class="col-12 testimonial-box-wrap">
-													<div class="text-center top-text-header">
-															<h4 class="text-uppercase text-sp text-lt h4-padding text-center padding-top-5">
-																O que dizem sobre a Nutrilight
-															</h4>
-														
-													</div>
-													<br />
-													<br />
-													<div class="text-center testimonial-box">
-														<figure>
-															<img
-																src="images/casal.png"
-																alt="Ilton Matos e Maria das Graças"
-															/>
-														</figure>
-														<h6>Ilton Matos e Maria das Graças Vieira</h6>
-														<p>
-																“Depois da Nutrilight a gente passou a fazer uma alimentação saudável... a gente estava com peso alterado, exames alterados, e conseguimos regularizar. Nós dois hoje fazemos esporte juntos e perdemos quase 40kg.... A Nutrilight completou a nossa felicidade.”
-														</p>
-													</div>
-												</div>
-												<div class="col-xs-12 col-sm-5 testimonial-box-wrap">
-													<div class="text-center testimonial-box">
-														<figure>
-															<img
-																src="images/pedro.jpg"
-																alt="Pedro Evangelista"
-															/>
-														</figure>
-														<h6>Pedro Evangelista</h6>
-														<p>
-																"Cada vez que olho para o espelho, gosto mais de mim. 25kg ja se foram. A Nutrilight me ajudou muito a gostar de mim mesmo. Obrigado Nutrilight!”
-														</p>
-													</div>
-												</div>
-												<br>
-												<br>
-											</div>
-										</div>
-									</li>
-									<!--single slide ends-->
-
-							</ul>
-						</div>
-					</div>
-					<!-- sucess story ends-->
-
-				<!--try-block-->
-				<div class="container">
-					<div class="try-block text-center">
-						<h3>Não encontrou o que procurava? Entre em contato com a gente!</h3>
-						<a href="#contact-the-team" class="btn hvr-wobble-skew">Contato</a>
-					</div>
-				</div>
-				<!--try block ends-->
-				<!-- ============== Support ends ============== -->
-
-				<!-- ============== select program block starts ============== -->
-				<!-- ============== select program block starts ============== -->
-				<section class="block select-program-block" id="appoitment-schedule">
-						<div class="container contact-section">
-							<div class="row">
-								<div class="col-md-3 wow fadeInRight">
-									<div class="w-100 d-flex">
-										<h3 class="programs-text">Partiu, Nutrilight!</h3>
-										<h5 class="m-0 text-center">
-                                            Pronto para começar? Consulte o Nutricionista <br />
-                                            mais perto de você.
-										</h5>
-									</div>
-								</div>
-								<div class="col-md-6 wow fadeInRight">
-									<div class="plans-background">
-											<fieldset>
-												<form
-													action="https://formspree.io/contato@nutrilight.fit"
-													method="POST"
-                                                >
-                                                <input type="hidden" name="_next" value="http://nutrilight.fit/" />
-
-													<input type="text" name="nome" placeholder="Nome" />
-													<br />
-													<br />
-													<input type="text" name="email" placeholder="Email" />
-													<br />
-													<br />
-													<input type="text" name="phone" placeholder="Telefone" />
-													<br />
-													<br />
-													<input type="text" name="city" placeholder="Cidade" />
-													<br />
-													<br />
-													<input type="text" name="state" placeholder="Estado" />
-													<br />
-													<br />
-													<p>Qual o seu objetivo?</p>
-												<div class="select text-lt text-sp">
-													<select>
-														<option value="">Perder Peso</option>
-														<option>Ganhar Massa Magra</option>
-														<option>Reeducação Alimentar</option>
-														<option>Ganhar Desempenho no esporte</option>
-														<option>Qualidade de Vida</option>
-														<option>Saúde</option>
-														<option>Estética</option>
-	
-													 </select>
-												</div>
-												<input type="submit" class="btn hvr-wobble-horizontal text-lt text-sp" target="_blank" value="Enviar"/>											</form>
-											</form>
-											</fieldset>         
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-
-				<!-- main content ends -->
-			</main>
-			<!-- main content ends -->
-
-			<!-- ============== footer block starts ============== -->
-			<section id="contact-the-team footerDiv">
-                    <footer>
-                        <div class="top-footer">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-2 col-sm-2 footer-logo">
+                                    </div>
+                                    <br/>
+                                    <br/>
+                                    <div class="text-center testimonial-box">
                                         <figure>
-                                            <a
-                                                ><img
-                                                    class="img-responsive"
-                                                    src="images/logo.png"
-                                                    alt="Footer logo"
-                                            /></a>
+                                            <img
+                                                    src="images/diego.jpg"
+                                                    alt="Diego Alves"
+                                            />
                                         </figure>
+                                        <h6>Diêgo Alves</h6>
+                                        <p>
+                                            “Estou na Nutrilight ha 10 meses, neste período eu já eliminei 36kg de forma
+                                            saudável, o que elevou meu auto estima me garantindo qualidade de vida, por
+                                            isto, eu recomendo a Nutrilight”
+                                        </p>
                                     </div>
-                                    
-                                    <div class="col-md-5 col-md-offset-1 col-sm-6 footer-menu">
-                                        <div class="row">
-                                            <div class="col-md-4 col-sm-3 footer-links-col">
-                                                <ul>
-                                                    <li>
-                                                        <a href="para-nutri.html">Nutricionistas</a>
-                                                    </li>
-                                                    <li><a href="para-voce.html">Você</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-4 col-sm-3 footer-links-col">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#how-the-app-works">Sobre o App</a>
-                                                    </li>
-                                                    <li><a href="#how-the-app-works">Download</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-4 col-sm-3 footer-links-col">
-                                                <ul>
-                                                    <li><a href="#get-ebook">E-book</a></li>
-                                                    <li><a href="#contact-the-team">Contato</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-12 col-md-12 footer1">
-                                                <ul>
-                                                    <li><br><spam class="h14">Atendimento: Segunda à Sexta, de 08:00 às 20:00</spam></li>
-                                                    <li><spam class="h14">e Sábados de 08:00 às 14:00.</spam></li>
-                                                </ul>
-                                            </div> 
-                                            </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-5 testimonial-box-wrap">
+                                    <div class="text-center testimonial-box">
+                                        <figure>
+                                            <img
+                                                    src="images/adelaide.jpg"
+                                                    alt="Adelaide Silva"
+                                            />
+                                        </figure>
+                                        <h6>Adelaide Silva</h6>
+                                        <p>
+                                            “Em 9 meses eu consegui eliminar 35kg que era o meu objetivo..... pra mim,
+                                            na verdade foi um aprendizado. E eu estou muito feliz com o resultado que a
+                                            Nutrilight me proporcionou.”
+                                        </p>
                                     </div>
-                                    <div
-                                        class="col-md-4 col-sm-2 footer-social-links"
-                                    >
-                                        <ul>
-                                            <li>
-                                                <a href="https://www.facebook.com/nutrilight.fit/"
-                                                    ><i class="fa fa-facebook hvr-wobble-top"></i
-                                                ></a>
-                                            </li>
-                                            <li>
-                                                <a href="https://twitter.com/nutrilight_fit"
-                                                    ><i class="fa fa-twitter hvr-wobble-top"></i
-                                                ></a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href="https://www.youtube.com/channel/UCenGuhnx9tLjyQcK39n_CeA"
-                                                    ><i class="fa fa-youtube hvr-wobble-top"></i
-                                                ></a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.instagram.com/nutrilight.fit/"
-                                                    ><i class="fa fa-instagram hvr-wobble-top"></i
-                                                ></a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href="https://www.linkedin.com/company/nutrilight/?viewAsMember=true"
-                                                    ><i class="fa fa-linkedin hvr-wobble-top"></i
-                                                ></a>
-                                            </li>
-                                        </ul>
-                                        <div class="col-xs-12 col-sm-2 col-md-12 mt-5">
-                                            <ul>
-                                                <li><spam class="h13">Rua Sergipe, 1440, 8° andar,</spam></li><br>
-                                                <li><spam class="h13">Savassi, Belo Horizonte - MG</spam></li>
-                                            </ul>
-                                        </div> 
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="row">
+                            <div class="row text-center testimonial-wrap">
+                                <div class="col-xs-12 col-sm-5 testimonial-box-wrap">
+                                    <div class="text-center top-text-header">
+                                        <h4 class="text-uppercase text-sp text-lt h4-padding text-center padding-top-5">
+                                            O que dizem sobre a Nutrilight
+                                        </h4>
+
                                     </div>
-                                    
+                                    <br/>
+                                    <br/>
+                                    <div class="text-center testimonial-box">
+                                        <figure>
+                                            <img
+                                                    src="images/evanete.jpg"
+                                                    alt="Evanete Miranda"
+                                            />
+                                        </figure>
+                                        <h6>Evanete Miranda</h6>
+                                        <p>
+                                            “Consegui eliminar 33kg em 9 meses com a Nutrilight, tô muito, muito feliz.
+                                            Minha auto estima está... nossa, demais!”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-5 testimonial-box-wrap">
+                                    <div class="text-center testimonial-box">
+                                        <figure>
+                                            <img
+                                                    src="images/marizia.jpg"
+                                                    alt="Mariza Teixeira"
+                                            />
+                                        </figure>
+                                        <h6>Mariza Teixeira</h6>
+                                        <p>
+                                            “Faço parte da família Nutrilight há 3 anos, consegui perder 18kg em 10
+                                            meses.... vestia um manequim de 50, hoje visto 42 e ao todo perdi
+                                            26kg....coisas que eu não conseguia fazer, hoje faço com facilidade......
+                                            hoje sou muito feliz.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </li>
+                    <!--single slide ends-->
+
+                    <li>
+                        <div class="row">
+                            <div class="row text-center testimonial-wrap">
+                                <div class="col-12 testimonial-box-wrap">
+                                    <div class="text-center top-text-header">
+                                        <h4 class="text-uppercase text-sp text-lt h4-padding text-center padding-top-5">
+                                            O que dizem sobre a Nutrilight
+                                        </h4>
+
+                                    </div>
+                                    <br/>
+                                    <br/>
+                                    <div class="text-center testimonial-box">
+                                        <figure>
+                                            <img
+                                                    src="images/casal.png"
+                                                    alt="Ilton Matos e Maria das Graças"
+                                            />
+                                        </figure>
+                                        <h6>Ilton Matos e Maria das Graças Vieira</h6>
+                                        <p>
+                                            “Depois da Nutrilight a gente passou a fazer uma alimentação saudável... a
+                                            gente estava com peso alterado, exames alterados, e conseguimos regularizar.
+                                            Nós dois hoje fazemos esporte juntos e perdemos quase 40kg.... A Nutrilight
+                                            completou a nossa felicidade.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-5 testimonial-box-wrap">
+                                    <div class="text-center testimonial-box">
+                                        <figure>
+                                            <img
+                                                    src="images/pedro.jpg"
+                                                    alt="Pedro Evangelista"
+                                            />
+                                        </figure>
+                                        <h6>Pedro Evangelista</h6>
+                                        <p>
+                                            "Cada vez que olho para o espelho, gosto mais de mim. 25kg ja se foram. A
+                                            Nutrilight me ajudou muito a gostar de mim mesmo. Obrigado Nutrilight!”
+                                        </p>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </li>
+                    <!--single slide ends-->
+
+                </ul>
+            </div>
+        </div>
+        <!-- sucess story ends-->
+
+        <!--try-block-->
+        <div class="container">
+            <div class="try-block text-center">
+                <h3>Não encontrou o que procurava? Entre em contato com a gente!</h3>
+                <a href="#contact-the-team" class="btn hvr-wobble-skew">Contato</a>
+            </div>
+        </div>
+        <!--try block ends-->
+        <!-- ============== Support ends ============== -->
+
+        <!-- ============== select program block starts ============== -->
+        <!-- ============== select program block starts ============== -->
+        <section class="block select-program-block" id="appoitment-schedule">
+            <div class="container contact-section">
+                <div class="row">
+                    <div class="col-md-3 wow fadeInRight">
+                        <div class="w-100 d-flex">
+                            <h3 class="programs-text">Partiu, Nutrilight!</h3>
+                            <h5 class="m-0 text-center">
+                                Pronto para começar? Consulte o Nutricionista <br/>
+                                mais perto de você.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeInRight">
+                        <div class="plans-background">
+                            <fieldset>
+                                <form version="2.0" class="formIntegration formIntegration2 style1" accept-charset="UTF-8"
+                                      method="post" onsubmit="return dinForms.ValidateForm(this)"
+                                      action="https://receiver.emkt.dinamize.com/in/323778/1/2296b/0"
+                                      target="DinamizeIframeFormIntegration">
+                                    <input type="hidden" name="update_mode" value="AS"/>
+                                    <input type="hidden" name="form-code" value="3"/>
+                                    <input type="hidden" name="isMsg" value="false"/>
+                                    <input type="hidden" name="redirect-url" value="http://agendamento.nutrilight.fit"/>
+                                    <input type="hidden" name="cmp4" value="Cadastro P&aacute;g Inicial|Lead|Paciente"/>
+                                    <input type="hidden" name="phase-change" value="off"/>
+
+                                    <input type="text" name="cmp2"  placeholder="Nome" format=""  class="type_VC field-required " maxlength="80" />
+                                    <br/>
+                                    <br/>
+                                    <input type="text" name="cmp1"  placeholder="Email" format=""  class="type_EMAIL field-required " maxlength="80" />
+                                    <br/>
+                                    <br/>
+                                    <div class="div_PHN hidden_DDI">
+                                        <div class="div_PHN_DDI">
+                                            <input type="text" name="cmp11_DDI" hd-name="cmp11" maxlength="5" value="55" class="type_PHN_DDI " />
+                                        </div><div class="div_PHN_NUM">
+                                        <input type="text" name="cmp11_NUM" hd-name="cmp11" maxlength="20" placeholder="(00) 0000-0000" class="type_PHN_NUM " />
+                                    </div>
+                                        <input type="hidden" name="cmp11" />
+                                    </div>
+                                    <br/>
+                                    <br/>
+                                    <div class="select text-lt text-sp">
+                                        <select name="cmp14" class="type_LVU ">
+                                            <option value="">Selecione Sua Cidade</option>
+                                            <option value="Anapolis">Anapolis</option>
+                                            <option value="Araçuaí">Araçuaí</option>
+                                            <option value="Araxá">Araxá</option>
+                                            <option value="Bahia">Bahia</option>
+                                            <option value="Batatais">Batatais</option>
+                                            <option value="Belo Horizonte">Belo Horizonte</option>
+                                            <option value="Cabo Frio">Cabo Frio</option>
+                                            <option value="Campinas">Campinas</option>
+                                            <option value="Contagem">Contagem</option>
+                                            <option value="Curitiba">Curitiba</option>
+                                            <option value="Feira de Santana">Feira de Santana</option>
+                                            <option value="Fortaleza">Fortaleza</option>
+                                            <option value="Goiânia">Goiânia</option>
+                                            <option value="Itaipé">Itaipé</option>
+                                            <option value="José Gonçalves de Minas">José Gonçalves de Minas</option>
+                                            <option value="Juiz de Fora">Juiz de Fora</option>
+                                            <option value="Jundiaí">Jundiaí</option>
+                                            <option value="Lagoa Santa">Lagoa Santa</option>
+                                            <option value="Malacheta">Malacheta</option>
+                                            <option value="Osasco">Osasco</option>
+                                            <option value="Ouro Preto">Ouro Preto</option>
+                                            <option value="Ribeirão Preto">Ribeirão Preto</option>
+                                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                                            <option value="Salvador">Salvador</option>
+                                            <option value="Santa Luzia">Santa Luzia</option>
+                                            <option value="São Paulo">São Paulo</option>
+                                            <option value="Taubaté">Taubaté</option>
+                                            <option value="Teresina">Teresina</option>
+                                            <option value="Vila Velha">Vila Velha</option>
+                                        </select>
+                                    </div>
+                                    <br/>
+                                    <br/>
+                                    <div class="select text-lt text-sp">
+                                        <select name="cmp13" class="type_LVU ">
+                                            <option value="">Selecione Seu Estado</option>
+                                            <option value="B">B</option>
+                                            <option value="BA">BA</option>
+                                            <option value="CA">CA</option>
+                                            <option value="CE">CE</option>
+                                            <option value="DC">DC</option>
+                                            <option value="ES">ES</option>
+                                            <option value="FL">FL</option>
+                                            <option value="GO">GO</option>
+                                            <option value="MG">MG</option>
+                                            <option value="NC">NC</option>
+                                            <option value="NH">NH</option>
+                                            <option value="NJ">NJ</option>
+                                            <option value="NY">NY</option>
+                                            <option value="PE">PE</option>
+                                            <option value="PI">PI</option>
+                                            <option value="PR">PR</option>
+                                            <option value="RJ">RJ</option>
+                                            <option value="SP">SP</option>
+                                        </select>
+                                    </div>
+                                    <br/>
+                                    <br/>
+                                    <p>Qual o seu objetivo?</p>
+                                    <div class="select text-lt text-sp">
+                                        <select name="cmp17" class="type_LVU ">
+                                            <option value="">Selecione</option>
+                                            <option value="Estética">Estética</option>
+                                            <option value="Ganhar Desempenho no Esporte">Ganhar Desempenho no Esporte</option>
+                                            <option value="Ganhar Massa Magra">Ganhar Massa Magra</option>
+                                            <option value="Perder Peso">Perder Peso</option>
+                                            <option value="Qualidade de Vida">Qualidade de Vida</option>
+                                            <option value="Reeducação Alimentar">Reeducação Alimentar</option>
+                                            <option value="Saúde">Saúde</option>
+                                        </select>
+                                    </div>
+                                    <!--<input type="submit" class="btn hvr-wobble-horizontal text-lt text-sp"
+                                           value="Cadastre-se" original-value="Cadastre-se" class="dinSubmit"/> -->
+                                    <input type="submit" value="Cadastre-se" original-value="Cadastre-se" class="dinSubmit" />
+                                </form>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- main content ends -->
+    </main>
+    <!-- main content ends -->
+
+    <!-- ============== footer block starts ============== -->
+    <section id="contact-the-team footerDiv">
+        <footer>
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2 footer-logo">
+                            <figure>
+                                <a
+                                ><img
+                                        class="img-responsive"
+                                        src="images/logo.png"
+                                        alt="Footer logo"
+                                /></a>
+                            </figure>
+                        </div>
+
+                        <div class="col-md-5 col-md-offset-1 col-sm-6 footer-menu">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-3 footer-links-col">
+                                    <ul>
+                                        <li>
+                                            <a href="para-nutri.html">Nutricionistas</a>
+                                        </li>
+                                        <li><a href="para-voce.html">Você</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 col-sm-3 footer-links-col">
+                                    <ul>
+                                        <li>
+                                            <a href="#how-the-app-works">Sobre o App</a>
+                                        </li>
+                                        <li><a href="#how-the-app-works">Download</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 col-sm-3 footer-links-col">
+                                    <ul>
+                                        <li><a href="#get-ebook">E-book</a></li>
+                                        <li><a href="#contact-the-team">Contato</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 footer1">
+                                    <ul>
+                                        <li><br>
+                                            <spam class="h14">Atendimento: Segunda à Sexta, de 08:00 às 20:00</spam>
+                                        </li>
+                                        <li>
+                                            <spam class="h14">e Sábados de 08:00 às 14:00.</spam>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                    </footer>
-                </section>
-                <!-- ============== footer block ends ============== -->
+                        <div
+                                class="col-md-4 col-sm-2 footer-social-links"
+                        >
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/nutrilight.fit/"
+                                    ><i class="fa fa-facebook hvr-wobble-top"></i
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/nutrilight_fit"
+                                    ><i class="fa fa-twitter hvr-wobble-top"></i
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a
+                                            href="https://www.youtube.com/channel/UCenGuhnx9tLjyQcK39n_CeA"
+                                    ><i class="fa fa-youtube hvr-wobble-top"></i
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/nutrilight.fit/"
+                                    ><i class="fa fa-instagram hvr-wobble-top"></i
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a
+                                            href="https://www.linkedin.com/company/nutrilight/?viewAsMember=true"
+                                    ><i class="fa fa-linkedin hvr-wobble-top"></i
+                                    ></a>
+                                </li>
+                            </ul>
+                            <div class="col-xs-12 col-sm-2 col-md-12 mt-5">
+                                <ul>
+                                    <li>
+                                        <spam class="h13">Rua Sergipe, 1440, 8° andar,</spam>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <spam class="h13">Savassi, Belo Horizonte - MG</spam>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-		</div>
-		<!-- main wrapper of the site ends -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- ============== footer block ends ============== -->
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery-3.1.1.min.js"></script>
-		<script src="js/jquery-ui-1.9.2.custom.js"></script>
-		<script src="js/modernizr.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/wow.min.js"></script>
-		<script src="js/Headroom.js"></script>
-		<script src="js/jquery.parallax-1.1.3.js"></script>
-		<script src="js/jquery.featureCarousel.js"></script>
-		<script src="js/jquery.bxslider.js"></script>
-		<script src="js/owl.carousel.js"></script>
-		<script src="js/jquery.waypoints.js"></script>
-		<script src="js/jquery.counterup.js"></script>
-		<script src="js/main.js"></script>
-	</body>
+</div>
+<!-- main wrapper of the site ends -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-ui-1.9.2.custom.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/Headroom.js"></script>
+<script src="js/jquery.parallax-1.1.3.js"></script>
+<script src="js/jquery.featureCarousel.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/jquery.waypoints.js"></script>
+<script src="js/jquery.counterup.js"></script>
+<script src="js/main.js"></script>
+</body>
 </html>
